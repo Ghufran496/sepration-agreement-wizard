@@ -1,0 +1,206 @@
+/* You can add global styles to this file, and also import other style files */
+@import "animate.css";
+
+:root {
+  --primary-color: #2196F3;
+  --primary-dark: #1976D2;
+  --secondary-color: #607D8B;
+  --accent-color: #FF5722;
+  --success-color: #4CAF50;
+  --warning-color: #FFC107;
+  --danger-color: #F44336;
+  --light-bg: #f8f9fa;
+  --border-color: #e0e0e0;
+  --text-color: #333;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Global PrimeNG Component Styling */
+.p-dropdown-panel {
+  z-index: 99999 !important;
+}
+
+.p-datepicker {
+  z-index: 999999 !important;
+}
+
+.p-component-overlay, 
+.p-dialog-mask {
+  z-index: 9000 !important;
+}
+
+.p-dropdown-panel {
+  z-index: 99999 !important;
+}
+
+.p-datepicker-panel,
+.p-calendar .p-datepicker,
+.p-datepicker-panel {
+  z-index: 999999 !important;
+}
+
+/* Force calendar to be visible */
+.p-datepicker {
+  position: absolute !important;
+  top: auto !important;
+  left: auto !important;
+}
+
+/* Bring calendar to front when active */
+.p-calendar:focus-within {
+  z-index: 999999 !important;
+}
+
+/* Special fix for children section */
+.children-card .p-calendar .p-datepicker,
+.child-card .p-calendar .p-datepicker {
+  z-index: 999999 !important;
+}
+
+.p-dropdown, .p-calendar {
+  height: auto !important;
+  min-height: 45px;
+  width: 100%;
+}
+
+.p-dropdown .p-dropdown-label {
+  padding: 0.5rem 0 !important;
+  white-space: normal !important;
+}
+
+.p-datepicker table td > span {
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 4px rgba(0,0,0,.08);
+}
+
+.shadow-lg {
+  box-shadow: 0 8px 16px rgba(0,0,0,.1);
+}
+
+.section-title {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.text-primary { color: var(--primary-color) !important; }
+.text-secondary { color: var(--secondary-color) !important; }
+.text-accent { color: var(--accent-color) !important; }
+.text-success { color: var(--success-color) !important; }
+.text-warning { color: var(--warning-color) !important; }
+.text-danger { color: var(--danger-color) !important; }
+
+.form-field {
+  margin-bottom: 1.5rem;
+}
+
+.field-label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.p-button {
+  transition: all 0.3s ease;
+}
+
+.p-input-lg {
+  height: 45px;
+}
+
+.hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  }
+}
+
+/* Animation durations */
+.animate__animated {
+  --animate-duration: 0.5s;
+}
+
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 1.5rem;
+  }
+  
+  .container {
+    padding: 1rem;
+  }
+}
+
+/* Card spacing improvements */
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+
+/* Calendar spacing improvements */
+.p-calendar {
+  margin-bottom: 0.5rem;
+}
+
+.p-calendar .p-datepicker-trigger {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

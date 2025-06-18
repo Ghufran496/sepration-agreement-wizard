@@ -1,0 +1,278 @@
+<div class="container animated fadeIn">
+  <div class="text-center mb-4 animate__animated animate__fadeIn">
+    <h1 class="main-title text-primary">Separation Agreement Wizard</h1>
+    <div class="title-underline"></div>
+  </div>
+  <div class="card main-card shadow-lg">
+    <h2 class="section-title text-primary">Party Information</h2>
+    <p class="instructions text-secondary">
+      Please fill in the information for both parties involved in the separation agreement.
+    </p>
+
+    <form [formGroup]="partyInfoForm" class="animate__animated animate__fadeIn">
+      <div class="grid">
+        <!-- Party 1 Info -->
+        <div class="col-12 md:col-6 animate__animated animate__fadeInLeft">
+          <div class="card party-card shadow-sm hover-effect">
+            <h3 class="party-title text-primary"><i class="pi pi-user mr-2"></i>Party 1</h3>
+            <div class="form-field mb-3">
+              <label for="party1FirstName" class="field-label">First Name</label>
+              <input id="party1FirstName" type="text" pInputText class="w-full p-input-lg"
+                formControlName="party1FirstName" placeholder="Enter first name" />
+              <small class="p-error block mt-1" style="color: red;"
+                *ngIf="partyInfoForm.get('party1FirstName')?.invalid && partyInfoForm.get('party1FirstName')?.touched">
+                First name is required
+              </small>
+            </div>
+            <div class="form-field mb-3">
+              <label for="party1MiddleName" class="field-label">Middle Name</label>
+              <input id="party1MiddleName" type="text" pInputText class="w-full p-input-lg"
+                formControlName="party1MiddleName" placeholder="Enter middle name (optional)" />
+            </div>
+            <div class="form-field mb-3">
+              <label for="party1LastName" class="field-label">Last Name</label>
+              <input id="party1LastName" type="text" pInputText class="w-full p-input-lg"
+                formControlName="party1LastName" placeholder="Enter last name" />
+              <small class="p-error block mt-1" style="color: red;"
+                *ngIf="partyInfoForm.get('party1LastName')?.invalid && partyInfoForm.get('party1LastName')?.touched">
+                Last name is required
+              </small>
+            </div>
+            <div class="form-field mb-3" style="position: relative; z-index: 2;">
+              <label for="party1Role" class="field-label">Role</label>
+              <p-dropdown id="party1Role" [options]="roleOptions" formControlName="party1Role" optionLabel="label"
+                optionValue="value" placeholder="Select Role" class="w-full dropdown-custom"
+                [appendTo]="'body'"></p-dropdown>
+            </div>
+          </div>
+        </div>
+
+        <!-- Party 2 Info -->
+        <div class="col-12 md:col-6 animate__animated animate__fadeInRight">
+          <div class="card party-card shadow-sm hover-effect">
+            <h3 class="party-title text-secondary"><i class="pi pi-user mr-2"></i>Party 2</h3>
+            <div class="form-field mb-3">
+              <label for="party2FirstName" class="field-label">First Name</label>
+              <input id="party2FirstName" type="text" pInputText class="w-full p-input-lg"
+                formControlName="party2FirstName" placeholder="Enter first name" />
+              <small class="p-error block mt-1" style="color: red;"
+                *ngIf="partyInfoForm.get('party2FirstName')?.invalid && partyInfoForm.get('party2FirstName')?.touched">
+                First name is required
+              </small>
+            </div>
+            <div class="form-field mb-3">
+              <label for="party2MiddleName" class="field-label">Middle Name</label>
+              <input id="party2MiddleName" type="text" pInputText class="w-full p-input-lg"
+                formControlName="party2MiddleName" placeholder="Enter middle name (optional)" />
+            </div>
+            <div class="form-field mb-3">
+              <label for="party2LastName" class="field-label">Last Name</label>
+              <input id="party2LastName" type="text" pInputText class="w-full p-input-lg"
+                formControlName="party2LastName" placeholder="Enter last name" />
+              <small class="p-error block mt-1" style="color: red;"
+                *ngIf="partyInfoForm.get('party2LastName')?.invalid && partyInfoForm.get('party2LastName')?.touched">
+                Last name is required
+              </small>
+            </div>
+            <div class="form-field mb-3" style="position: relative; z-index: 2;">
+              <label for="party2Role" class="field-label">Role</label>
+              <p-dropdown id="party2Role" [options]="roleOptions" formControlName="party2Role" optionLabel="label"
+                optionValue="value" placeholder="Select Role" class="w-full dropdown-custom"
+                [appendTo]="'body'"></p-dropdown>
+            </div>
+          </div>
+        </div>
+
+        <!-- Support Information -->
+        <div class="col-12 animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+          <div class="card support-card shadow-sm hover-effect" style="padding-top: 2rem; padding-bottom: 2.5rem;">
+            <h3 class="section-subtitle"><i class="pi pi-dollar mr-2"></i>Support Information</h3>
+            <div class="grid">
+              <div class="col-12 md:col-6">
+                <div class="form-field mb-3" style="position: relative; z-index: 2;">
+                  <label for="spousalSupportPayor" class="field-label">Spousal Support Payor</label>
+                  <p-dropdown id="spousalSupportPayor" [options]="partyOptions" formControlName="spousalSupportPayor"
+                    optionLabel="label" optionValue="value" placeholder="Select Party" class="w-full dropdown-custom"
+                    [appendTo]="'body'"></p-dropdown>
+                </div>
+              </div>
+              <div class="col-12 md:col-6">
+                <div class="form-field mb-3" style="position: relative; z-index: 2;">
+                  <label for="spousalSupportRecipient" class="field-label">Spousal Support Recipient</label>
+                  <p-dropdown id="spousalSupportRecipient" [options]="partyOptions"
+                    formControlName="spousalSupportRecipient" optionLabel="label" optionValue="value"
+                    placeholder="Select Party" class="w-full dropdown-custom" [appendTo]="'body'"></p-dropdown>
+                </div>
+              </div>
+              <div class="col-12 md:col-6">
+                <div class="form-field mb-3" style="position: relative; z-index: 2;">
+                  <label for="childSupportPayor" class="field-label">Child Support Payor</label>
+                  <p-dropdown id="childSupportPayor" [options]="partyOptions" formControlName="childSupportPayor"
+                    optionLabel="label" optionValue="value" placeholder="Select Party" class="w-full dropdown-custom"
+                    [appendTo]="'body'"></p-dropdown>
+                </div>
+              </div>
+              <div class="col-12 md:col-6">
+                <div class="form-field mb-3" style="position: relative; z-index: 2;">
+                  <label for="childSupportRecipient" class="field-label">Child Support Recipient</label>
+                  <p-dropdown id="childSupportRecipient" [options]="partyOptions"
+                    formControlName="childSupportRecipient" optionLabel="label" optionValue="value"
+                    placeholder="Select Party" class="w-full dropdown-custom" [appendTo]="'body'"></p-dropdown>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Important Dates -->
+        <div class="col-12 animate__animated animate__fadeInUp" style="animation-delay: 0.3s;">
+          <div class="card dates-card shadow-sm hover-effect" style="padding-top: 2rem; padding-bottom: 5.5rem;">
+            <h3 class="section-subtitle"><i class="pi pi-calendar mr-2"></i>Important Dates</h3>
+            <div class="grid">
+              <div class="col-12 md:col-4 mt-4">
+                <div class="form-field mb-3" style="position: relative; z-index: 2;">
+                  <label for="marriedDate" class="field-label">Married Date</label>
+                  <p-calendar id="marriedDate" formControlName="marriedDate" dateFormat="dd/mm/yy"
+                    placeholder="dd/mm/yyyy" class="w-full calendar-custom" [showIcon]="true"
+                    [appendTo]="'body'"></p-calendar>
+                </div>
+              </div>
+              <div class="col-12 md:col-4 mt-4">
+                <div class="form-field mb-3" style="position: relative; z-index: 2;">
+                  <label for="cohabitationDate" class="field-label">Cohabitation Date</label>
+                  <p-calendar id="cohabitationDate" formControlName="cohabitationDate" dateFormat="dd/mm/yy"
+                    placeholder="dd/mm/yyyy" class="w-full calendar-custom" [showIcon]="true"
+                    [appendTo]="'body'"></p-calendar>
+                </div>
+              </div>
+              <div class="col-12 md:col-4 mt-4">
+                <div class="form-field mb-3" style="position: relative; z-index: 2;">
+                  <label for="separationDate" class="field-label">Separation Date</label>
+                  <p-calendar id="separationDate" formControlName="separationDate" dateFormat="dd/mm/yy"
+                    placeholder="dd/mm/yyyy" class="w-full calendar-custom" [showIcon]="true"
+                    [appendTo]="'body'"></p-calendar>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Children Info -->
+        <div class="col-12 animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+          <div class="card children-card shadow-sm hover-effect">
+            <div class="flex justify-content-between align-items-center">
+              <h3 class="section-subtitle"><i class="pi pi-users mr-2"></i>Children</h3>
+              <button pButton type="button" label="Add Child" icon="pi pi-plus"
+                class="p-button-rounded p-button-success" (click)="addChild()"
+                style="background-color: #3f51b5;"></button>
+            </div>
+
+            <div formArrayName="children">
+              <div style="padding-bottom: 4rem;" *ngFor="let child of children.controls; let i = index"
+                [formGroupName]="i" class="card child-card mt-3 animate__animated animate__fadeIn">
+                <div class="flex justify-content-between align-items-center mb-3">
+                  <h4 class="m-0 child-title">Child {{i + 1}}</h4>
+                  <button pButton type="button" icon="pi pi-trash" class="p-button-rounded p-button-danger p-button-sm"
+                    (click)="removeChild(i)"></button>
+                </div>
+                <div class="grid">
+                  <div class="col-12 md:col-4">
+                    <div class="form-field mb-3">
+                      <label [for]="'childFirstName' + i" class="field-label">First Name</label>
+                      <input [id]="'childFirstName' + i" type="text" pInputText class="w-full p-input-lg"
+                        formControlName="firstName" placeholder="Enter first name" />
+                      <small class="p-error block mt-1" style="color: red;"
+                        *ngIf="children.controls[i].get('firstName')?.invalid && children.controls[i].get('firstName')?.touched">
+                        First name is required
+                      </small>
+                    </div>
+                  </div>
+                  <div class="col-12 md:col-4">
+                    <div class="form-field mb-3">
+                      <label [for]="'childMiddleName' + i" class="field-label">Middle Name</label>
+                      <input [id]="'childMiddleName' + i" type="text" pInputText class="w-full p-input-lg"
+                        formControlName="middleName" placeholder="Enter middle name (optional)" />
+                    </div>
+                  </div>
+                  <div class="col-12 md:col-4">
+                    <div class="form-field mb-3">
+                      <label [for]="'childLastName' + i" class="field-label">Last Name</label>
+                      <input [id]="'childLastName' + i" type="text" pInputText class="w-full p-input-lg"
+                        formControlName="lastName" placeholder="Enter last name" />
+                      <small class="p-error block mt-1" style="color: red;"
+                        *ngIf="children.controls[i].get('lastName')?.invalid && children.controls[i].get('lastName')?.touched">
+                        Last name is required
+                      </small>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-field mb-3" style="position: relative; z-index: 2;">
+                      <label [for]="'childBirthdate' + i" class="field-label">Birthdate</label>
+                      <p-calendar [id]="'childBirthdate' + i" formControlName="birthdate" dateFormat="dd/mm/yy"
+                        placeholder="dd/mm/yyyy" class="w-full calendar-custom" [showIcon]="true"
+                        [appendTo]="'body'"></p-calendar>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="action-buttons mt-4 animate__animated animate__fadeInUp" style="animation-delay: 0.5s;">
+        <div></div> <!-- Spacer for flex layout -->
+        <button pButton type="button" label="Next" icon="pi pi-arrow-right" iconPos="right"
+          class="p-button-lg p-button-rounded transition-button" (click)="onNext()"
+          style="background-color: #1a237e;"></button>
+      </div>
+
+      <!-- Form-level validation message -->
+      <div class="mt-3 text-center" *ngIf="partyInfoForm.invalid && (partyInfoForm.touched || partyInfoForm.dirty)">
+        <small class="p-error">Please fill in all required fields before proceeding.</small>
+      </div>
+    </form>
+  </div>
+</div>
+
+<style>
+  .main-title {
+    color: #1a237e !important;
+  }
+
+  .title-underline {
+    background-color: #1a237e;
+    height: 3px;
+    width: 100px;
+    margin: 10px auto;
+  }
+
+  /* Custom styling for PrimeNG components */
+  :host ::ng-deep {
+    .p-calendar .p-datepicker-trigger {
+      background-color: #1a237e;
+    }
+
+    .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+      background-color: rgba(26, 35, 126, 0.1) !important;
+      color: #1a237e !important;
+    }
+
+    .p-dropdown .p-dropdown-trigger {
+      color: #1a237e;
+    }
+
+    .p-calendar .p-datepicker-header,
+    .p-datepicker .p-datepicker-header {
+      background-color: #1a237e;
+    }
+
+    .p-datepicker table td>span.p-highlight {
+      background-color: #3949ab;
+    }
+
+    .p-button:enabled:hover {
+      background-color: #303f9f;
+    }
+  }
+</style>

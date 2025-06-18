@@ -1,0 +1,84 @@
+<div class="text-center mb-4 animate__animated animate__fadeIn">
+  <h1 class="main-title" style="color: #1a237e;">Separation Agreement Wizard</h1>
+  <div class="title-underline"></div>
+</div>
+<div class="container animated fadeIn">
+  <div class="card main-card shadow-lg">
+    <h2 class="section-title" style="color: #1a237e;">Select Clauses</h2>
+    <p class="instructions">
+      Select the clauses you want to include in your separation agreement.
+    </p>
+
+    <div *ngIf="loading" class="flex justify-content-center align-items-center" style="min-height: 300px;">
+      <i class="pi pi-spin pi-spinner" style="font-size: 2rem"></i>
+      <span class="ml-2">Loading clauses...</span>
+    </div>
+
+    <div *ngIf="!loading" class="grid">
+      <div class="col-12 md:col-6">
+        <div class="card shadow-sm hover-effect">
+          <h3 class="mb-3">Available Clauses</h3>
+          <div class="scrollable-container"
+            style="height: 400px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 5px;">
+            <p-tree [value]="clauses" selectionMode="checkbox" [(selection)]="selectedTreeNodes"
+              (onNodeSelect)="onNodeSelect($event)" (onNodeUnselect)="onNodeUnselect($event)" [filter]="true"
+              filterMode="lenient" [filterBy]="'label'" [filterPlaceholder]="'Search...'" [propagateSelectionUp]="true"
+              [propagateSelectionDown]="true"></p-tree>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 md:col-6">
+        <div class="card shadow-sm hover-effect">
+          <h3 class="mb-3">Selected Clauses</h3>
+          <div class="scrollable-container"
+            style="height: 400px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 5px;">
+            <p-table [value]="selectedClauses" [tableStyle]="{'min-width': '100%'}">
+              <ng-template pTemplate="body" let-clause>
+                <tr>
+                  <td>
+                    <div class="flex align-items-center justify-content-between">
+                      <div>
+                        <span class="font-bold">[{{clause.category}}]</span>
+                        <p>{{clause.text}}</p>
+                      </div>
+                      <button pButton icon="pi pi-trash" class="p-button-danger p-button-sm"
+                        (click)="removeClause(clause)"></button>
+                    </div>
+                  </td>
+                </tr>
+              </ng-template>
+              <ng-template pTemplate="emptymessage">
+                <tr>
+                  <td>
+                    <p class="text-center">No clauses selected yet. Please select clauses from the tree.</p>
+                  </td>
+                </tr>
+              </ng-template>
+            </p-table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="action-buttons mt-4">
+      <button pButton type="button" label="Back" icon="pi pi-arrow-left"
+        class="p-button-secondary p-button-lg p-button-rounded" (click)="onBack()"
+        style="background-color: #3949ab; color: white;"></button>
+      <button pButton type="button" label="Review" icon="pi pi-arrow-right" iconPos="right"
+        class="p-button-lg p-button-rounded" (click)="onNext()" style="background-color: #1a237e;"></button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight {
+    background-color: rgba(26, 35, 126, 0.1) !important;
+    color: #1a237e !important;
+  }
+
+  .p-checkbox .p-checkbox-box.p-highlight {
+    border-color: #1a237e !important;
+    background: #1a237e !important;
+  }
+</style>

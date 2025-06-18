@@ -1,0 +1,140 @@
+<p-progressSpinner *ngIf="isGenerating" class="document-loading" strokeWidth="4"
+  [style]="{width: '50px', height: '50px'}" [style.strokeColor]="'#1a237e'"></p-progressSpinner>
+
+<div class="text-center mb-4 animate__animated animate__fadeIn">
+  <h1 class="main-title" style="color: #1a237e;">Separation Agreement Wizard</h1>
+  <div class="title-underline"></div>
+</div>
+
+<div class="container animated fadeIn">
+  <div class="card main-card shadow-lg" [class.blurred]="isGenerating">
+    <h2 class="section-title" style="color: #1a237e;">Review & Confirm</h2>
+    <p class="instructions">
+      Review the information and clauses you have selected for your separation agreement.
+    </p>
+
+    <div *ngIf="loading" class="flex justify-content-center align-items-center" style="min-height: 300px;">
+      <i class="pi pi-spin pi-spinner" style="font-size: 2rem"></i>
+      <span class="ml-2">Loading your information...</span>
+    </div>
+
+    <div *ngIf="!loading">
+      <div class="card mb-3 shadow-sm hover-effect">
+        <h3>Party Information</h3>
+        <div class="grid">
+          <div class="col-12 md:col-6">
+            <div class="card">
+              <h4>Party 1</h4>
+              <p><strong>Name:</strong> {{ partyInfo.party1FirstName }} {{ partyInfo.party1MiddleName }} {{
+                partyInfo.party1LastName }}</p>
+              <p *ngIf="partyInfo.party1Role"><strong>Role:</strong> {{ partyInfo.party1Role }}</p>
+            </div>
+          </div>
+          <div class="col-12 md:col-6">
+            <div class="card">
+              <h4>Party 2</h4>
+              <p><strong>Name:</strong> {{ partyInfo.party2FirstName }} {{ partyInfo.party2MiddleName }} {{
+                partyInfo.party2LastName }}</p>
+              <p *ngIf="partyInfo.party2Role"><strong>Role:</strong> {{ partyInfo.party2Role }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" *ngIf="partyInfo.children && partyInfo.children.length > 0">
+          <h4>Children</h4>
+          <ul class="list-none p-0 m-0">
+            <li *ngFor="let child of partyInfo.children" class="mb-2">
+              <p><strong>Name:</strong> {{ child.firstName }} {{ child.middleName }} {{ child.lastName }}</p>
+              <p><strong>Birthdate:</strong> {{ child.birthdate | date:'dd/MM/yyyy' }}</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card" *ngIf="hasSupport()">
+          <h4>Support Information</h4>
+          <div *ngIf="partyInfo.spousalSupportPayor">
+            <p><strong>Spousal Support Payor:</strong> {{ getPartyName(partyInfo.spousalSupportPayor) }}</p>
+            <p><strong>Spousal Support Recipient:</strong> {{ getPartyName(partyInfo.spousalSupportRecipient) }}</p>
+          </div>
+          <div *ngIf="partyInfo.childSupportPayor">
+            <p><strong>Child Support Payor:</strong> {{ getPartyName(partyInfo.childSupportPayor) }}</p>
+            <p><strong>Child Support Recipient:</strong> {{ getPartyName(partyInfo.childSupportRecipient) }}</p>
+          </div>
+        </div>
+
+        <div class="card" *ngIf="hasDates()">
+          <h4>Important Dates</h4>
+          <p *ngIf="partyInfo.marriedDate"><strong>Marriage Date:</strong> {{ partyInfo.marriedDate | date:'dd/MM/yyyy'
+            }}</p>
+          <p *ngIf="partyInfo.cohabitationDate"><strong>Cohabitation Date:</strong> {{ partyInfo.cohabitationDate |
+            date:'dd/MM/yyyy' }}</p>
+          <p *ngIf="partyInfo.separationDate"><strong>Separation Date:</strong> {{ partyInfo.separationDate |
+            date:'dd/MM/yyyy' }}</p>
+        </div>
+      </div>
+
+      <div class="card shadow-sm hover-effect">
+        <h3>Selected Clauses</h3>
+        <div *ngIf="selectedClauses.length > 0; else noClauses" 
+             [class.clauses-container]="selectedClauses.length > 10">
+          <div *ngFor="let clause of selectedClauses" class="card mb-2">
+            <h4>[{{ clause.category }}]</h4>
+            <p class="whitespace-pre-line">{{ formatClauseText(clause.text) }}</p>
+          </div>
+        </div>
+        <ng-template #noClauses>
+          <p>No clauses have been selected.</p>
+        </ng-template>
+      </div>
+    </div>
+
+    <div class="action-buttons mt-4">
+      <button pButton type="button" label="Back" icon="pi pi-arrow-left"
+        class="p-button-secondary p-button-lg p-button-rounded" (click)="onBack()"
+        [disabled]="isGenerating || loading" style="background-color: #3949ab; color: white;"></button>
+      <button pButton type="button" label="Generate Document" icon="pi pi-file" iconPos="right"
+        class="p-button-lg p-button-rounded" (click)="onGenerateDocument()" [loading]="isGenerating"
+        [disabled]="loading" style="background-color: #1a237e;"></button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .document-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+  }
+
+  .blurred {
+    filter: blur(2px);
+    pointer-events: none;
+  }
+  
+  .clauses-container {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+  
+  .main-title {
+    color: #1a237e !important;
+  }
+  
+  .title-underline {
+    background-color: #1a237e;
+    height: 3px;
+    width: 100px;
+    margin: 10px auto;
+  }
+  
+  .card h3, .card h4 {
+    color: #3949ab;
+  }
+  
+  .card {
+    border-color: #c5cae9;
+  }
+</style>

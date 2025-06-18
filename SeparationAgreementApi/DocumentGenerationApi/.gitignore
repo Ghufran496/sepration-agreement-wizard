@@ -1,0 +1,10 @@
+# .gitignore
+
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.db
+*.cache
+*.pdb

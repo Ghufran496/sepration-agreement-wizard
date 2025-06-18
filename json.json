@@ -1,0 +1,2268 @@
+[
+    {
+      "id": 1000,
+      "category": "Definitions",
+      "text": "1. Definitions\nIn this Agreement:\n(a) \"child\" or \"children\" means \"names and dates of birth of children involved\";\n(b) \"cohabit\" means to live with another person in a relationship resembling marriage;\n(c) \"company\" means [name of company] (if one of the parties owns a company);\n(d) \"cottage\" means the property at [street address] in [city], [PROVINCE];\n(e) \"CRA\" means Canada Revenue Agency;\n(f) \"equalization payment\" means the payment referred to in the [INSERT PROVINCIAL LEGISLATION NAME HERE for property division];\n(g) \"MAINTENANCE ENFORCEMENT AGENCY\" means the MAINTENANCE ENFORCEMENT AGENCY NAME described in the [Insert Provincial Legislation name here Act], or any successor support enforcement agency;\n(h) \"Guidelines\" means the Federal Child Support Guidelines, as defined in s. 2(1) of the Divorce Act, or, in the case of unmarried parents or spouses, \"Guidelines\" means the Child Support Guidelines as defined in s. 1(1) of the [INSERT PROVINCIAL LEGISLATION NAME HERE];\n(i) \"Indexing factor\" means the percentage change for a given month in the Consumer Price Index for [Canada] for prices of All-Items (as published by Statistics Canada) the same month of the previous year;\n(j) \"matrimonial home\" means the property at [street address] in [city], [Province];\n(k) \"net family property\" means net family property as defined in the [INSERT PROVINCIAL LEGISLATION NAME HERE];\n(l) \"property\" means property as defined in the [INSERT PROVINCIAL LEGISLATION NAME HERE]; and\n(m) \"section 7 expenses\" means the special or extraordinary expenses referred to in s.7 of the Guidelines."
+    },
+    {
+      "id": 2000,
+      "category": "Marriage [Cohabitation] Date ",
+      "text": "*PARTY 1* and *PARTY 2* were married or began cohabiting on [date]."
+    },
+    {
+      "id": 2001,
+      "category": "Never Married/Cohabited",
+      "text": "*PARTY 1* and *PARTY 2* were never married, nor did they cohabit. They agree the Divorce Act and INSERT PROVINCIAL LEGISLATION NAME HERE do not apply, despite references in the Agreement."
+    },
+    {
+      "id": 2002,
+      "category": "Separation Date",
+      "text": "*PARTY 1* and *PARTY 2* separated on [date] and will continue to live separate and apart."
+    },
+    {
+      "id": 2003,
+      "category": "Separation Date while Living in Same Property",
+      "text": "*PARTY 1* and *PARTY 2* are separated and still live in the same home. One party will vacate the home upon execution of this Agreement and asset transfer."
+    },
+    {
+      "id": 2004,
+      "category": "Date of Divorce",
+      "text": "The parties were divorced on [date]."
+    },
+    {
+      "id": 2005,
+      "category": "Birthdate and Age",
+      "text": "*PARTY 1* was born on [date], age [x]; *PARTY 2* was born on [date], age [x]."
+    },
+    {
+      "id": 2006,
+      "category": "Children of the Marriage/Relationship",
+      "text": "The parties have one child. Additional parenting role history during the marriage may impact support claims."
+    },
+    {
+      "id": 2007,
+      "category": "Children from Prior Marriages/Relationships",
+      "text": "Either party has child[ren] from a previous relationship. Their involvement or lack of standing in loco parentis may affect child support obligations."
+    },
+    {
+      "id": 2008,
+      "category": "Education/Employment Background",
+      "text": "*PARTY 1*’s employment/income details include: [job title/employer], earning approximately $[amount] annually. May include self-employment, unemployment, re-training plans, or caregiving status."
+    },
+    {
+      "id": 2009,
+      "category": "Education/Employment Background",
+      "text": "*PARTY 2*’s employment/income details include: [job title/employer], earning approximately $[amount] annually. May include self-employment, unemployment, re-training plans, or caregiving status."
+    },
+    {
+      "id": 2010,
+      "category": "State of Health",
+      "text": "Both parties currently enjoy excellent health, or relevant health conditions are disclosed for support determination."
+    },
+    {
+      "id": 2011,
+      "category": "Intended Purpose of Agreement",
+      "text": "The Agreement is intended to resolve: (a) parenting/support; (b) spousal support (final or interim); (c) property rights and estate claims."
+    },
+    {
+      "id": 2012,
+      "category": "Interim Agreement",
+      "text": "This is an Interim Agreement on selected issues such as parenting, child/spousal support, and will expire on [date]."
+    },
+    {
+      "id": 2013,
+      "category": "Agree to be Bound",
+      "text": "The parties agree this Agreement settles all issues between them."
+    },
+    {
+      "id": 2014,
+      "category": "Importance of Full Disclosure",
+      "text": "Each party confirms they have provided full financial disclosure of income, assets, and debts relevant to the Agreement."
+    },
+    {
+      "id": 2015,
+      "category": "Advised of Law",
+      "text": "Each party has received legal advice about their rights under legislation and common law, including unjust enrichment and trusts."
+    },
+    {
+      "id": 2016,
+      "category": "Intentions/Circumstances re: Agreement",
+      "text": "The parties negotiated in good faith, with independent advice, free of coercion, and accept the Agreement regardless of potential court outcomes."
+    },
+    {
+      "id": 2017,
+      "category": "Assistance of Mediator",
+      "text": "This Agreement was made with the help of a mediator, namely [specify name]."
+    },
+    {
+      "id": 2018,
+      "category": "No Application Commenced",
+      "text": "No legal applications have been started under the Divorce Act or INSERT PROVINCIAL LEGISLATION NAME HERE."
+    },
+    {
+      "id": 2019,
+      "category": "Application Commenced",
+      "text": "A legal application has been commenced under the Divorce Act or INSERT PROVINCIAL LEGISLATION NAME HERE. All prior orders are now incorporated or replaced by this Agreement."
+    },
+    {
+      "id": 2020,
+      "category": "Incorporate Minutes of Settlement / MOBA",
+      "text": "This Agreement incorporates the terms of a previously signed Memorandum of Settlement or Minutes of Settlement dated [date]."
+    },
+    {
+      "id": 2021,
+      "category": "Replaces All Agreements",
+      "text": "This Agreement replaces all prior oral or written agreements regarding marriage or relationship issues."
+    },
+    {
+      "id": 2022,
+      "category": "Replaces (varies) Domestic Contracts",
+      "text": "This Agreement replaces or modifies a previous domestic contract made on [date]."
+    },
+    {
+      "id": 2023,
+      "category": "Incorporation and Accuracy of Background",
+      "text": "All background facts form part of this Agreement. Each party confirms their truth and the other’s reliance on them."
+    },
+    {
+      "id": 3000,
+      "category": "Respect of/Freedom From The Other",
+      "text": "*PARTY 1* and *PARTY 2* will continue to respect each other and each other's privacy."
+    },
+    {
+      "id": 3001,
+      "category": "Respect & Privacy",
+      "text": "Neither party will, by any act, omission, innuendo, comment or otherwise, interfere with, criticize, harass, or speak ill of the other, including the other's parenting, family, friends, employment, lifestyle choices or other decisions/actions."
+    },
+    {
+      "id": 3002,
+      "category": "Non influence of others",
+      "text": "Neither party will seek to influence others against the other party."
+    },
+    {
+      "id": 3003,
+      "category": "Non-harassment and Non-trespass (No Children)",
+      "text": "Neither party will go on property where the other lives or works without the other's consent."
+    },
+    {
+      "id": 3004,
+      "category": "Non-harassment and Non-trespass (With Children)",
+      "text": "Neither party will go to the other's home except on reasonable notice and only for the purpose of picking up or dropping off the child(ren)."
+    },
+    {
+      "id": 4000,
+      "category": "Parenting Plan",
+      "text": "*PARTY 1* and *PARTY 2* will honour their Parenting Plan, attached as a Schedule to this Agreement."
+    },
+    {
+      "id": 4001,
+      "category": "Day to Day Decision Making ",
+      "text": "The party with whom the child is scheduled to be according to the parenting time schedule will make the day-to-day decisions affecting the child during that time."
+    },
+    {
+      "id": 4002,
+      "category": "Joint Decision Making",
+      "text": "*PARTY 1* and *PARTY 2* will have joint decision-making responsibility and will make important decisions about the child’s welfare together, including decisions about health, education, culture, language, religion and spirituality, and significant extra-curricular activities."
+    },
+    {
+      "id": 4003,
+      "category": "Dispute Resolution",
+      "text": "If the parties cannot agree on a decision regarding the child, they will use the dispute resolution provision in this Agreement to resolve the dispute."
+    },
+    {
+      "id": 4004,
+      "category": "Sole Decision Making",
+      "text": "One parent will have sole decision-making responsibility and will make important decisions about the child’s welfare, including health, education, culture, language, religion and spirituality, and extra-curricular activities."
+    },
+    {
+      "id": 4005,
+      "category": "Consultation with other Parent",
+      "text": "Sole decision-making parent must first consult with the other parent in respect of all important decisions and provide their decision in writing in advance."
+    },
+    {
+      "id": 4006,
+      "category": "Split Decision Making",
+      "text": "Each parent will have split decision-making authority over specific areas of the child’s welfare. Each must consult with the other before making final decisions and give written notice 30 days in advance."
+    },
+    {
+      "id": 4007,
+      "category": "Emergency Medical Care",
+      "text": "If emergency medical care is needed during parenting time, the parent present must notify the other parent promptly."
+    },
+    {
+      "id": 4008,
+      "category": "Health Decisions per: Doctor",
+      "text": "Health-related decisions will be made in consultation with doctors and health specialists and based on their recommendations when necessary."
+    },
+    {
+      "id": 4009,
+      "category": "Education Decisions",
+      "text": "Education decisions include school selection, holding back or skipping grades, changing teachers, or switching schools."
+    },
+    {
+      "id": 4010,
+      "category": "Religious Upbringing",
+      "text": "A child will be raised in a designated religion or will have no religious affiliation, as agreed."
+    },
+    {
+      "id": 4011,
+      "category": "Name Change",
+      "text": "Neither party may change the child's name without the written consent of the other."
+    },
+    {
+      "id": 4012,
+      "category": "Important Documents, including Passports",
+      "text": "Each party will hold and exchange the child’s documents (e.g., passport, SIN, birth certificate) as reasonably required, and return them promptly."
+    },
+    {
+      "id": 4013,
+      "category": "Information from Third Parties",
+      "text": "Either party may make inquiries and receive information from the child’s teachers, medical providers, and others involved in their care. They will sign any authorization forms if required."
+    },
+    {
+      "id": 4014,
+      "category": "Statement of Mutual Obligations and Communication Parameters",
+      "text": "Both parties agree to promote the child's best interests, support relationships with both parents, and avoid alienation or negative remarks."
+    },
+    {
+      "id": 4015,
+      "category": "Equal Parenting Time - Alternate Weeks",
+      "text": "Parenting time will be equally split in alternating weeks, with each parent responsible for transportation during their time."
+    },
+    {
+      "id": 4016,
+      "category": "Equal Parenting Time - Split Two-Week Rotation (2-2-5-5)",
+      "text": "Parenting follows a structured two-week rotating schedule with alternating mid-week and weekend exchanges."
+    },
+    {
+      "id": 4017,
+      "category": "Alternate Weekends & One Evening",
+      "text": "Parenting is shared across a repeating two-week schedule with clear transitions and alternating weekends."
+    },
+    {
+      "id": 4018,
+      "category": "Alternate Weekends & One Overnight",
+      "text": "One parent will have primary parenting time, the other will have mid-week and alternate weekend time, and be responsible for transitions."
+    },
+    {
+      "id": 4019,
+      "category": "Supervised Parenting - Access Centre",
+      "text": "If parenting time is supervised, the location, times, and supervisor (e.g., access center or relative) must be specified in the agreement."
+    },
+    {
+      "id": 4020,
+      "category": "No Parenting time",
+      "text": "PARTY A or PARTY B will have no parenting time until further agreement or court order."
+    },
+    {
+      "id": 4021,
+      "category": "Holiday Schedule – General",
+      "text": "This holiday schedule is in addition to the regular parenting time above, and overrides the regular parenting time in the event of conflict. (The regular parenting time above and this holiday schedule are collectively referred to as the \"parenting time schedule\".)"
+    },
+    {
+      "id": 4022,
+      "category": "Family Day Weekend",
+      "text": "_____ will stay with _____ on Family Day Weekend in odd-numbered years and with _____ in even-numbered years, from after school on Friday until the start of school on Tuesday."
+    },
+    {
+      "id": 4023,
+      "category": "Spring Break",
+      "text": "_____ will stay with _____ during the Spring Break in odd-numbered years and with _____ in even-numbered years, from after school as the break starts until the start of school following the break."
+    },
+    {
+      "id": 4024,
+      "category": "Easter Weekend",
+      "text": "_____ will stay with _____ on Easter Weekend in odd-numbered years and with _____ in even-numbered years, from after school on the Thursday before the Easter weekend until the start of school the following Tuesday."
+    },
+    {
+      "id": 4025,
+      "category": "Mother’s Day Weekend",
+      "text": "If _____ is not otherwise with _____ on this weekend, _____ will stay with _____ on Mother's Day Weekend, from [Saturday] at [7:00 p.m.] until the start of school on Monday."
+    },
+    {
+      "id": 4026,
+      "category": "Victoria Day Weekend",
+      "text": "_____ will stay with _____ on Victoria Day Weekend in odd-numbered years and with _____ in even-numbered years, from after school on Friday until the start of school on Tuesday."
+    },
+    {
+      "id": 4027,
+      "category": "Father’s Day Weekend",
+      "text": "If _____ is not otherwise with _____ on this weekend, _____ will stay with _____ on Father's Day Weekend, from [Saturday] at [7:00 p.m.] until the start of school on Monday."
+    },
+    {
+      "id": 4028,
+      "category": "Summer Camp",
+      "text": "_____ will attend overnight Summer Camp during the Summer Break. [Specify details.]"
+    },
+    {
+      "id": 4029,
+      "category": "Summer Vacation – Parent A Weeks",
+      "text": "The children will stay with _____ for [number] [consecutive or non-consecutive] weeks, during which time _____ regular parenting time will be suspended."
+    },
+    {
+      "id": 4030,
+      "category": "Summer Vacation – Parent B Weeks",
+      "text": "The children will stay with _____ for [number] [consecutive or non-consecutive] weeks, during which time _____ regular parenting time will be suspended."
+    },
+    {
+      "id": 4031,
+      "category": "Summer Vacation – Choice Priority",
+      "text": "_____ will have first choice of Summer Vacation time in odd-numbered years and _____ will have first choice in even-numbered years. The party with first choice will advise the other, in writing, by [April 1st] of the chosen weeks; the other party will advise by [May 1st]."
+    },
+    {
+      "id": 4032,
+      "category": "Summer Vacation – Scheduled Activities",
+      "text": "In making plans, each party will take into account _____ camp and other scheduled activities."
+    },
+    {
+      "id": 4033,
+      "category": "Canada Day Weekend",
+      "text": "Subject to the Summer Vacation time above, _____ will stay with _____ on the Canada Day Weekend in odd-numbered years and with _____ in even-numbered years, from [5:00 p.m.] on Friday until [9:00 p.m.] on Monday."
+    },
+    {
+      "id": 4034,
+      "category": "August Civic Holiday Weekend",
+      "text": "Subject to the Summer Vacation time above, _____ will stay with _____ on the August Civic Holiday Weekend in odd-numbered years and with _____ in even-numbered years, from [5:00 p.m.] on Friday until [9:00 p.m.] on Monday."
+    },
+    {
+      "id": 4035,
+      "category": "Labour Day Weekend",
+      "text": "_____ will stay with _____ on the Labour Day Weekend in odd-numbered years and with _____ in even-numbered years, from [5:00 p.m.] on Friday until the start of school on Tuesday."
+    },
+    {
+      "id": 4036,
+      "category": "Thanksgiving Weekend",
+      "text": "_____ will stay with _____ on Thanksgiving Weekend in odd-numbered years and with _____ in even-numbered years, from after school on the Friday before Thanksgiving until the start of school on Tuesday."
+    },
+    {
+      "id": 4037,
+      "category": "Halloween",
+      "text": "_____ will be with _____ for Halloween in odd-numbered years and with _____ in even-numbered years, from after school until [9:00 p.m.]. The party who has _____ for Halloween will be responsible for _____ costume."
+    },
+    {
+      "id": 4038,
+      "category": "Christmas Break – Split",
+      "text": "The parties will equally share _____ Christmas Break. _____ will stay with _____ for the first half in odd-numbered years and last half in even-numbered years, and with _____ for the first half in even-numbered years and last half in odd-numbered years. The first half starts after school on the last day of school in December and ends at [noon] on the halfway date; the second half runs from [noon] on the halfway date to the start of school in January."
+    },
+    {
+      "id": 4039,
+      "category": "Child’s Birthday",
+      "text": "_____ will spend their birthday in accordance with the regular parenting time schedule."
+    },
+    {
+      "id": 4040,
+      "category": "Christmas Eve / Morning & Christmas Day",
+      "text": "Regardless of the Christmas Break schedule, _____ will stay with _____ on Christmas Eve/Morning until Christmas Day at [noon], and with _____ from [noon] on Christmas Day until [9:00 p.m.] on Boxing Day in odd-numbered years; the arrangement reverses in even-numbered years."
+    },
+    {
+      "id": 4041,
+      "category": "Passover – Erev",
+      "text": "_____ will stay with _____ on Erev Passover in odd-numbered years and with _____ in even-numbered years, from after school (or 4:00 p.m. if it is not a school day) until 4:00 p.m. the next day."
+    },
+    {
+      "id": 4042,
+      "category": "Passover – First Day",
+      "text": "_____ will stay with _____ on the first day of Passover in odd-numbered years and with _____ in even-numbered years, from 4:00 p.m. until the start of school (or noon if it is not a school day) the next day."
+    },
+    {
+      "id": 4043,
+      "category": "Rosh Hashana – Erev",
+      "text": "_____ will stay with _____ on Erev Rosh Hashana in odd-numbered years and with _____ in even-numbered years, from after school (or 4:00 p.m. if it is not a school day) until 4:00 p.m. the next day."
+    },
+    {
+      "id": 4044,
+      "category": "Rosh Hashana – First Day",
+      "text": "_____ will stay with _____ on the first day of Rosh Hashana in odd-numbered years and with _____ in even-numbered years, from 4:00 p.m. until 4:00 p.m. the next day."
+    },
+    {
+      "id": 4045,
+      "category": "Yom Kippur – Erev",
+      "text": "_____ will stay with _____ on Erev Yom Kippur in odd-numbered years and with _____ in even-numbered years, from after school (or 4:00 p.m. if it is not a school day) until noon the next day."
+    },
+    {
+      "id": 4046,
+      "category": "Yom Kippur – Day",
+      "text": "_____ will stay with _____ on Yom Kippur in odd-numbered years and with _____ in even-numbered years, from noon until the start of school (or noon if it is not a school day) the next day."
+    },
+    {
+      "id": 4047,
+      "category": "Sukkot – Erev",
+      "text": "_____ will stay with _____ on Erev Sukkot in odd-numbered years and with _____ in even-numbered years, from after school (or 4:00 p.m. if it is not a school day) until 4:00 p.m. the next day."
+    },
+    {
+      "id": 4048,
+      "category": "Sukkot – First Day",
+      "text": "_____ will stay with _____ on the first day of Sukkot in odd-numbered years and with _____ in even-numbered years, from 4:00 p.m. until the start of school (or 4:00 p.m. if it is not a school day) the next day."
+    },
+    {
+      "id": 4049,
+      "category": "Sukkot – Second-Last Evening",
+      "text": "_____ will stay with _____ on the second-to-last evening of Sukkot in odd-numbered years and with _____ in even-numbered years, from after school (or 4:00 p.m. if it is not a school day) until 4:00 p.m. the next day."
+    },
+    {
+      "id": 4050,
+      "category": "Sukkot – Last Evening",
+      "text": "_____ will stay with _____ on the last evening of Sukkot in odd-numbered years and with _____ in even-numbered years, from 4:00 p.m. until the start of school (or 4:00 p.m. if it is not a school day) the next day."
+    },
+    {
+      "id": 4051,
+      "category": "Eid al-Fitr",
+      "text": "_____ will stay with _____ for Eid al-Fitr in odd-numbered years and with _____ in even-numbered years, from after school (or 4:00 p.m. if it is not a school day) the day before until the start of school (or noon if it is not a school day) the day after."
+    },
+    {
+      "id": 4052,
+      "category": "Eid al-Adha",
+      "text": "_____ will stay with _____ for Eid al-Adha in odd-numbered years and with _____ in even-numbered years, from after school (or 4:00 p.m. if it is not a school day) the day before until the start of school (or noon if it is not a school day) the day after."
+    },
+    {
+      "id": 4053,
+      "category": "Holi – Holika Dahan",
+      "text": "_____ will stay with _____ on Holika Dahan in odd-numbered years and with _____ in even-numbered years, from after school (or 4:00 p.m. if it is not a school day) until the start of school (or noon if it is not a school day) the next day."
+    },
+    {
+      "id": 4054,
+      "category": "Holi – Main Day",
+      "text": "_____ will stay with _____ on Holi in odd-numbered years and with _____ in even-numbered years, from after school (or noon if it is not a school day) until the start of school (or noon if it is not a school day) the next day."
+    },
+    {
+      "id": 4055,
+      "category": "Diwali",
+      "text": "_____ will stay with _____ for Diwali in odd-numbered years and with _____ in even-numbered years, from after school (or 4:00 p.m. if it is not a school day) until the start of school (or noon if it is not a school day) the next day."
+    },
+    {
+      "id": 4056,
+      "category": "Contact Information",
+      "text": "Both parties will provide each other with their email addresses, current addresses and a phone number where they can be reached at all times."
+    },
+    {
+      "id": 4057,
+      "category": "School Transitions",
+      "text": "With respect to _____ transitions between the parties, where possible, will be picked up or dropped off directly at school. If the parenting time schedule contemplates a pick up or drop off at school, but _____ are not in school that day, the transition time will be 9:00 a.m. unless otherwise specified, and the party with _____ will be responsible for dropping her off at the end of the parenting time at the other party_____ home."
+    },
+    {
+      "id": 4058,
+      "category": "Alterations to Schedule",
+      "text": "The parenting time schedule will only be altered if both parties agree."
+    },
+    {
+      "id": 4059,
+      "category": "Childcare Responsibility During Own Time",
+      "text": "The party with whom _____ are scheduled to be according to the parenting time schedule will be solely and financially responsible for making childcare arrangements during their parenting time, including making alternate arrangements when unable to care for _____ due to illness, employment responsibilities, etc. [after first confirming that the other party is (and the other grandparents are) not available pursuant to the right-of-first-refusal section below.]"
+    },
+    {
+      "id": 4060,
+      "category": "Third-Party Care Overnights",
+      "text": "If _____ will be in the care of a third party for more than one overnight during a party's' scheduled parenting time[, after first confirming that the other party is (and the other grandparents are) not available pursuant to the right-of-first-refusal section below], that party will advise the other party by email and will provide the name, address and phone number of the third party."
+    },
+    {
+      "id": 4061,
+      "category": "Make-Up Parenting Time",
+      "text": "[There will be no make-up time for missed parenting time, unless the parties agree otherwise.] [If a party misses their parenting time, the parties will arrange make-up time.]"
+    },
+    {
+      "id": 4062,
+      "category": "Respect for Each Other’s Plans",
+      "text": "Neither party will object to the other's plans with _____ and each must respect the other's ability to care for _____ appropriately."
+    },
+    {
+      "id": 4063,
+      "category": "No Activities During Other Party’s Time",
+      "text": "Neither party will arrange activities for _____ during the other party's scheduled parenting time without the other party's consent."
+    },
+    {
+      "id": 4064,
+      "category": "Attendance at Extracurricular & School Events",
+      "text": "Both parties may attend extracurricular activities and scheduled school events (as more particularly detailed below) regardless of the parenting time schedule."
+    },
+    {
+      "id": 4065,
+      "category": "Transitions When Child Is Sick",
+      "text": "If _____ is sick, the transition from one party's care to the other party's care is to proceed according to the parenting time schedule unless _____ is too sick to travel between the parties' homes according to _____ 's doctor."
+    },
+    {
+      "id": 4066,
+      "category": "Child’s Personal Items",
+      "text": "_____ will be permitted to take any personal item, toy, gift or article of clothing between the parties' homes, without restriction."
+    },
+    {
+      "id": 4067,
+      "category": "Health Card Travels",
+      "text": "_____'s' health card will travel with _____ between the parties' homes."
+    },
+    {
+      "id": 4068,
+      "category": "Flexibility & Best Interests",
+      "text": "Notwithstanding the above subparagraphs, the parties will at all times maintain a reasonable and flexible position respecting the parenting time schedule for _____ and at all times the best interests of _____ will prevail. Accordingly, if special occasions, extracurricular activities, excursions or other opportunities become available to _____, or to either party, neither party will insist that the parenting time schedule set out herein be adhered to without exception."
+    },
+    {
+      "id": 4069,
+      "category": "Right of First Refusal – Either Parent",
+      "text": "_____ and _____ agree that it is in _____'s best interests to spend time with the other party [or _____ grandparents] rather than with a third party. Accordingly, if a party with whom _____ is scheduled to be according to the parenting time schedule above [or that party's parent(s)] cannot care for _____, that party will notify the other party and give the other party [or the other party's parent(s)] the opportunity to do so. If the other party [or the other party's parent(s)] cannot care for _____, the party with whom the children are scheduled to be according to the parenting time schedule above will be solely and financially responsible for making alternate childcare arrangements."
+    },
+    {
+      "id": 4070,
+      "category": "Right of First Refusal – Other Parent Unable",
+      "text": "The parties agree that it is in _____'s best interests to spend time with _____ [or _____'s grandparents] rather than with a third party when _____ [or _____'s parent(s)] cannot care for _____. Accordingly, if _____ [or _____'s parent(s)] cannot care for _____, _____ will notify _____ and give _____ [or _____'s parent(s)] the opportunity to do so."
+    },
+    {
+      "id": 4071,
+      "category": "Child-Parent Daily Communication",
+      "text": "_____ and _____ may telephone, text, video conference, or email with _____ on a [once] daily basis. _____ may telephone, text, video conference, or email _____ or _____ whenever she wishes. The parties will respect _____ privacy during these communications."
+    },
+    {
+      "id": 4072,
+      "category": "Child’s Cell Phone",
+      "text": "To facilitate this communication with _____, [_____ and _____ will share] [_____ (or _____) will pay] the cost of a cell phone and monthly plan for _____."
+    },
+    {
+      "id": 4073,
+      "category": "Social Media Posting",
+      "text": "The parties will not post photos or videos of _____ on their social media accounts [without the consent of the other party] [unless their account remains private and access is given to the other party to view any post]."
+    },
+    {
+      "id": 4074,
+      "category": "School Functions Attendance",
+      "text": "Both parties may attend all school functions regardless of the parenting time schedule."
+    },
+    {
+      "id": 4075,
+      "category": "Parent-Teacher Meetings",
+      "text": "The parties will attend parent-teacher meetings [preferably together, but if that is not practical, then individually] [individually, or together if both parties consent]."
+    },
+    {
+      "id": 4076,
+      "category": "Obtain School Notices",
+      "text": "Each party will obtain their own school calendar and school notices."
+    },
+    {
+      "id": 4077,
+      "category": "Field Trips / Classroom Events",
+      "text": "With respect to school field trips or classroom events, [the parties will alternate attendance. If one party is unable to attend, that party will immediately notify the other party, who may attend instead] [a party will only attend field trips and participate in classroom events when _____ is in that party_____ care according to the schedule]."
+    },
+    {
+      "id": 4078,
+      "category": "Grandparents – Telephone Contact",
+      "text": "Grandparents will have reasonable telephone contact with _____."
+    },
+    {
+      "id": 4079,
+      "category": "Grandparents – Contact During Parent Time",
+      "text": "Grandparents will have reasonable contact with _____, to be exercised for the most part when the party that is their child has parenting time with _____."
+    },
+    {
+      "id": 4080,
+      "category": "Grandparents – Care When Parent Unavailable",
+      "text": "Grandparents will have the right to care for _____ when the party that is their child has parenting time with _____ but is unavailable to care for her."
+    },
+    {
+      "id": 4081,
+      "category": "Travel – Written Consent",
+      "text": "[First obtain the other party's consent in writing, such consent not to be unreasonably withheld] before travelling [outside Canada] [outside (specify jurisdiction)] with _____."
+    },
+    {
+      "id": 4082,
+      "category": "Travel – Itinerary Notice",
+      "text": "The travelling party will give the other party a detailed itinerary at least [number] days before the vacation begins, including airline, flight times, accommodation (address and phone) and how to contact _____ during the trip."
+    },
+    {
+      "id": 4083,
+      "category": "Travel – Notarized Authorization",
+      "text": "The travelling party will obtain a notarized travel authorization from the other party by providing a [draft letter] [\"Travel Consent Form\" substantially in the form attached] authorizing travel, to be executed and notarized [at the travelling party_____ expense]."
+    },
+    {
+      "id": 4084,
+      "category": "Vacation Without Child – Contact Info",
+      "text": "If either party plans a vacation without _____, the travelling party will give the other a telephone number where they can be reached in case of emergency or if _____ wishes to contact that party."
+    },
+    {
+      "id": 4085,
+      "category": "Residence Proximity",
+      "text": "_____ and _____ will live near each other to facilitate the parenting time with _____, set out in this Agreement."
+    },
+    {
+      "id": 4086,
+      "category": "Residence Change – Notice",
+      "text": "If a party proposes to change their residence or that of [_____ within (number) kilometres from the municipal boundary of (area)], such that the other party_____ relationship with _____ will not be significantly impacted, the moving party will give written notice [at least 30 days before the proposed change] to the other party of: (i) the expected date of the change; (ii) the new address; and (iii) updated contact information[, including any new telephone number(s)]."
+    },
+    {
+      "id": 4087,
+      "category": "Relocation – Live Near for Parenting & Decision-Making",
+      "text": "_____ and _____ will live near each other to facilitate the parenting time and the decision-making responsibility with respect to _____, as set out in this Agreement."
+    },
+    {
+      "id": 4088,
+      "category": "Relocation – Notice Requirements",
+      "text": "A party intending to relocate with or without _____ in a way that significantly impacts the other party's relationship with _____ must give at least 60 days' written notice in the form prescribed by the [applicable legislation] [Divorce Act], setting out the expected date, new address and contact information, a proposal for parenting time[ and decision-making], and any other prescribed information."
+    },
+    {
+      "id": 4089,
+      "category": "Relocation – Collaborate to Revise Schedule",
+      "text": "Upon receiving notice of proposed relocation, the parties will work together [independently or with counsel] to review and revise the parenting time schedule[ and decision-making responsibility] and related issues, and may mediate the dispute if needed."
+    },
+    {
+      "id": 4090,
+      "category": "Relocation – Objection Notice",
+      "text": "If the matter is unresolved, the non-relocating party will, within 30 days, serve an objection in the prescribed form under the [Divorce Act], stating the objection, reasons, views on parenting proposals, and any other prescribed information."
+    },
+    {
+      "id": 4091,
+      "category": "Relocation – Dispute Resolution",
+      "text": "If an objection is served, the dispute will be resolved by [arbitration] [mediation/arbitration] [court application], as specified in this Agreement."
+    },
+    {
+      "id": 4092,
+      "category": "Relocation – When Move Permitted",
+      "text": "If (i) the parties reach an amending agreement, (ii) the non-relocating party does not object and there is no proceeding pending, or (iii) no award or court order prohibits the move, the relocating party may move as of the date in the notice or any applicable award/order."
+    },
+    {
+      "id": 4093,
+      "category": "Relocation – Travel Term",
+      "text": "This relocation paragraph does not limit either party’s ability to take _____ out of the jurisdiction for travel in accordance with the travel term above."
+    },
+    {
+      "id": 4094,
+      "category": "Death of One Parent",
+      "text": "If _____ or _____ dies, the surviving party will assume all primary parenting responsibilities, including parenting time and decision-making for _____. Both parties will make wills consistent with this section."
+    },
+    {
+      "id": 4095,
+      "category": "Death of Both Parents",
+      "text": "If both parties die, [name of chosen appointee(s)] will assume decision-making responsibility for _____. Both parties will make wills consistent with this section."
+    },
+    {
+      "id": 4096,
+      "category": "Motor Vehicle Insurance",
+      "text": "Each party will obtain motor-vehicle insurance that includes $[amount] of third-party liability coverage for any vehicle the party (a) owns or leases; (b) uses to transport _____; or (c) permits _____ to drive."
+    },
+    {
+      "id": 4097,
+      "category": "Parenting Coordinator – Appointment",
+      "text": "The parties wish to engage [name of parenting coordinator]. If that person cannot act, they will refer to an alternate; failing that, the parties will select another mutually agreeable coordinator by [method]."
+    },
+    {
+      "id": 4098,
+      "category": "Parenting Coordinator – Cost Sharing",
+      "text": "The parties will share the [up-front] cost of the parenting coordinator [equally] [_____ % / _____ %]."
+    },
+    {
+      "id": 4099,
+      "category": "Parenting Coordinator – Arbitration After X Days",
+      "text": "If the parties have not resolved the parenting dispute after [number] days, the parenting coordinator will arbitrate the dispute[, and may reapportion costs]."
+    },
+    {
+      "id": 4100,
+      "category": "Parenting Coordinator – Arbitration Act",
+      "text": "Any arbitration will be conducted under the Arbitration Act and will constitute a secondary arbitration under that Act and the Provincial legislation Act."
+    },
+    {
+      "id": 4101,
+      "category": "Parenting Coordinator – Binding Award",
+      "text": "The parenting coordinator’s decision (\"award\") will be binding. The award may be appealed to the court [as of right on questions of (law) (fact) (mixed law and fact)]."
+    },
+    {
+      "id": 4102,
+      "category": "Parenting Coordinator – Agreement",
+      "text": "The parties will enter into a Parenting Coordination Agreement consistent with these terms[, attached as a Schedule to this Agreement]."
+    },
+    {
+      "id": 4103,
+      "category": "Mediation/Arbitration – Appointment",
+      "text": "The parties wish to engage [name of mediator/arbitrator]. If that person cannot act, they will follow the same referral and selection process as set out above."
+    },
+    {
+      "id": 4104,
+      "category": "Mediation/Arbitration – Cost Sharing",
+      "text": "The parties will share the [up-front] cost of the mediation/arbitration [equally] [_____ % / _____ %]."
+    },
+    {
+      "id": 4105,
+      "category": "Mediation/Arbitration – Arbitration After X Days",
+      "text": "If the parties have not resolved the dispute through mediation after [number] days, the mediator/arbitrator will arbitrate the dispute[, and may reapportion costs]."
+    },
+    {
+      "id": 4106,
+      "category": "Mediation/Arbitration – Arbitration Act & FLA",
+      "text": "Any arbitration will be conducted under the Arbitration Act and will constitute a secondary arbitration under that Act and the Family Law Act."
+    },
+    {
+      "id": 4107,
+      "category": "Mediation/Arbitration – Binding Award & Appeals",
+      "text": "The mediator/arbitrator’s decision (\"award\") will be binding. The award may be appealed to the court [with leave on questions of law only] [as of right on questions of (law) (fact) (mixed law and fact)]."
+    },
+    {
+      "id": 4108,
+      "category": "Mediation/Arbitration – Agreement",
+      "text": "The parties will enter into a Mediation/Arbitration Agreement consistent with these terms[, attached as a Schedule to this Agreement]."
+    },
+    {
+      "id": 5000,
+      "category": "Definitions",
+      "text": "\"Table\" and \"income\" mean those terms as defined in s. 2(1) of the Guidelines; \"section 7 expenses\" are defined in s. 7(1); \"child support\" includes both Table amount and section 7 expenses."
+    },
+    {
+      "id": 5001,
+      "category": "Declaration Of Income",
+      "text": "For determining child support: PARTY A income is $[amount]; PARTY B income is $[amount]."
+    },
+    {
+      "id": 5002,
+      "category": "Arrears",
+      "text": "As of the Agreement date, arrears of child support owed are $[amount]."
+    },
+    {
+      "id": 5003,
+      "category": "Arrears Paid in Full",
+      "text": "Arrears will be paid in full within [number] days of Agreement date."
+    },
+    {
+      "id": 5004,
+      "category": "Arrears Paid in monthly installments",
+      "text": "Arrears will be paid in monthly installments of $[amount], starting [date], until paid in full."
+    },
+    {
+      "id": 5005,
+      "category": "Arrears Paid in addition to Ongoing Child Support",
+      "text": "Arrears payments are in addition to ongoing child support obligations."
+    },
+    {
+      "id": 5006,
+      "category": "Equal Parenting Time",
+      "text": "The parties have equal/shared parenting time. Each will pay monthly Table child support adjusted as per circumstances, and contribute to section 7 expenses."
+    },
+    {
+      "id": 5007,
+      "category": "Shared Parenting Time",
+      "text": "Child lives primarily with one party, but the other has 40%+ time. Each party pays adjusted Table child support and contributes to section 7 expenses."
+    },
+    {
+      "id": 5008,
+      "category": "Primary Parenting Time",
+      "text": "One party has primary parenting time. The other pays full monthly Table support and their share of section 7 expenses."
+    },
+    {
+      "id": 5009,
+      "category": "Split Parenting Time",
+      "text": "Split parenting: each party pays Table support for the child(ren) in the other’s primary care. Net amount is offset monthly."
+    },
+    {
+      "id": 5010,
+      "category": "No Child Support Payable",
+      "text": "Each party supports the child independently with no contribution from the other. This arrangement is reasonable under the Guidelines."
+    },
+    {
+      "id": 5011,
+      "category": "Lump Sum Child Support",
+      "text": "A lump sum child support payment of $[amount] satisfies all future child support obligations."
+    },
+    {
+      "id": 5012,
+      "category": "Child Support More Than Table Amount",
+      "text": "A party pays more than Table amount due to increased household expenses or other valid reasons."
+    },
+    {
+      "id": 5013,
+      "category": "Special Provisions",
+      "text": "A party pays less than the Table amount due to special provisions benefiting the child (e.g., equity transfer, exclusive home use, lump sum)."
+    },
+    {
+      "id": 5014,
+      "category": "Payor's Income over $150,000",
+      "text": "A party pays less than Table amount due to high income exceeding $150,000. Contributions adjusted to match needs and fairness."
+    },
+    {
+      "id": 5015,
+      "category": "Children Over the Age of Majority",
+      "text": "Reduced support is justified where the child is over the age of majority. This reflects actual dependency and fairness."
+    },
+    {
+      "id": 5016,
+      "category": "Undue Hardship",
+      "text": "Undue hardship warrants reduced Table support due to household income disparities and financial burdens."
+    },
+    {
+      "id": 5017,
+      "category": "Review Of Undue Hardship",
+      "text": "Undue hardship will be reviewed after one year, with disclosure exchanged and child support adjusted if applicable."
+    },
+    {
+      "id": 5018,
+      "category": "Fixed Termination Date For Undue Hardship",
+      "text": "If undue hardship ends, the full Table amount and proportional section 7 expense sharing resumes automatically."
+    },
+    {
+      "id": 5019,
+      "category": "Current/Estimated Section 7 Expenses",
+      "text": "Section 7 expenses must be itemized annually, with each party contributing based on proportional income or fixed responsibility."
+    },
+    {
+      "id": 5020,
+      "category": "Payment of Section 7 Expenses - One Party",
+      "text": "Section 7 expenses will be allocated as follows: one party pays specific items upfront, the other reimburses proportionally based on agreed percentages."
+    },
+    {
+      "id": 5021,
+      "category": "Payment of Section 7 Expenses - Both Parties",
+      "text": "Each party provides written proof of incurred section 7 expenses annually. Reimbursement is calculated after applying tax credits, subsidies, and support considerations."
+    },
+    {
+      "id": 5022,
+      "category": "Yearly Reconciliation of Section 7 Expenses - One Party",
+      "text": "Each party pays their respective upfront share of section 7 expenses, then balances are settled annually based on proportional income share."
+    },
+    {
+      "id": 5023,
+      "category": "Yearly Reconciliation of Section 7 Expenses - Both Parties",
+      "text": "Future section 7 expenses include agreed-upon items (e.g., tutoring, medical, extracurricular). Disputes are resolved through the Agreement's dispute resolution process."
+    },
+    {
+      "id": 5024,
+      "category": "Agreement as to Future Section 7 Expenses",
+      "text": "Expenses not classified as section 7 include typical recurring costs such as food, clothing, field trips, and regular school supplies."
+    },
+    {
+      "id": 5025,
+      "category": "Agreement as to What are NOT Section 7 Expenses",
+      "text": "Parties will only contribute to future section 7 expenses if they provide written consent in advance. Consent will not be unreasonably withheld."
+    },
+    {
+      "id": 5026,
+      "category": "Consent Required for Contribution",
+      "text": "Child support terminates upon specific events including: turning 18, becoming self-supporting, marriage, or death, unless exceptions apply."
+    },
+    {
+      "id": 5027,
+      "category": "Termination - Detailed",
+      "text": "Child support terminates when a child is no longer defined as a 'child of the marriage' or equivalent under provincial legislation."
+    },
+    {
+      "id": 5028,
+      "category": "Termination - Simple",
+      "text": "Upon a terminating event, the responsible party must notify the other in writing. Failure to notify may result in reimbursement of overpaid support and legal costs."
+    },
+    {
+      "id": 5029,
+      "category": "Notice Of Terminating Event",
+      "text": "If support obligations end for one child, the parties will review support for remaining children. Disagreements are resolved via dispute resolution."
+    },
+    {
+      "id": 5030,
+      "category": "Determining Child Support for Remaining Children",
+      "text": "Support may resume if a child who left school later returns full-time and is still under the defined age limit."
+    },
+    {
+      "id": 5031,
+      "category": "Support Resumes if Child Returns to School",
+      "text": "Post-secondary education requires reviewing support amounts and adjusting based on reduced home expenses and new education costs."
+    },
+    {
+      "id": 5032,
+      "category": "Review if Child Lives at Home",
+      "text": "Full Table support continues during post-secondary education if the child remains at home with a parent or both parties."
+    },
+    {
+      "id": 5033,
+      "category": "Review if Child Lives away from Home",
+      "text": "When a child lives away for school, monthly support is adjusted or paused for specific months and blended over the year if needed."
+    },
+    {
+      "id": 5034,
+      "category": "No Change in Table Support",
+      "text": "Each party contributes a percentage of the child’s post-secondary educational expenses based on agreed ratios or actual income."
+    },
+    {
+      "id": 5035,
+      "category": "RESP",
+      "text": "RESP contributions and balances are applied before allocating remaining educational costs. Reimbursement follows contribution ratios."
+    },
+    {
+      "id": 5036,
+      "category": "Child's Contribution to Section 7 Expenses",
+      "text": "The parties will consider the child's reasonable financial contribution before allocating education expenses. Disputes go to mediation/arbitration."
+    },
+    {
+      "id": 5037,
+      "category": "Automatic Annual Review",
+      "text": "Parties agree to review child support annually upon request. If no agreement is reached, dispute resolution will be used."
+    },
+    {
+      "id": 5038,
+      "category": "Disclosure - short form",
+      "text": "Parties exchange income information annually by May 1st. Adjusted support and section 7 expense contributions take effect July 1st."
+    },
+    {
+      "id": 5039,
+      "category": "Disclosure - long form",
+      "text": "Each party must disclose tax returns, earnings, and financial data under s. 21(1) of the Guidelines annually or within 30 days of request."
+    },
+    {
+      "id": 5040,
+      "category": "Mandatory Disclosure",
+      "text": "Each party must provide additional disclosure annually, including full income documentation, benefits, self-employment details, trust statements, and financial information relevant to child support."
+    },
+    {
+      "id": 5041,
+      "category": "Variation Because of Change of Income",
+      "text": "Parties will determine the Table amount of child support annually based on actual income and exchange of tax returns by May 1st (or June 15th if self-employed)."
+    },
+    {
+      "id": 5042,
+      "category": "Underpayment of Support",
+      "text": "If underpayment of Table support is discovered, the payor will pay the balance immediately or within 30 days."
+    },
+    {
+      "id": 5043,
+      "category": "Overpayment of Support",
+      "text": "If overpayment occurred, the overpaying party may deduct the excess from future support in equal installments."
+    },
+    {
+      "id": 5044,
+      "category": "Dispute Resolution - change in support",
+      "text": "If parties disagree on the child support adjustment, they will use the Agreement’s dispute resolution clause to resolve the issue."
+    },
+    {
+      "id": 5045,
+      "category": "Material change in circumstances",
+      "text": "Either party may seek a variation of child support due to a material change in condition, needs, means, or other circumstances."
+    },
+    {
+      "id": 5046,
+      "category": "what constitutes material changes",
+      "text": "Material change can be foreseeable or unforeseeable, including significant income shifts, hardship, parenting time changes, or health changes."
+    },
+    {
+      "id": 5047,
+      "category": "What does not constitute a material change",
+      "text": "Certain events do NOT qualify as material change, including minor income drops, short-term sabbaticals, or typical seasonal earnings."
+    },
+    {
+      "id": 5048,
+      "category": "Notice of Change",
+      "text": "A party requesting change must notify the other in writing, provide evidence, and request necessary supporting information."
+    },
+    {
+      "id": 5049,
+      "category": "Dispute Resolution for “change",
+      "text": "If the parties cannot agree on changes to support, the matter will be resolved through dispute resolution."
+    },
+    {
+      "id": 5050,
+      "category": "Indexing factor",
+      "text": "Child support is indexed annually starting on [date]. Increases align with the Consumer Price Index from three months prior to the indexing date."
+    },
+    {
+      "id": 5051,
+      "category": "Increase Other Than by Indexing Factor",
+      "text": "The Table amount may alternatively be increased based on the actual annual increase in the payor's income, if less than the indexing factor."
+    },
+    {
+      "id": 5052,
+      "category": "Income versus CPI Indexing",
+      "text": "To adjust by income rather than CPI, the payor must disclose tax returns and supporting financial documents for the past two years."
+    },
+    {
+      "id": 5053,
+      "category": "Indexing Pending Review",
+      "text": "If neither party initiates a review in a given year, the indexed adjustment applies automatically per the Agreement."
+    },
+    {
+      "id": 5054,
+      "category": "Equal/Shared Parenting Time",
+      "text": "In shared parenting time arrangements, each party is entitled to 50% of applicable child-related tax credits and benefits."
+    },
+    {
+      "id": 5055,
+      "category": "Low Income tax credits",
+      "text": "One party may claim any tax credits for low-income families, if applicable, as agreed."
+    },
+    {
+      "id": 5056,
+      "category": "Split Parenting Time",
+      "text": "One or both parties may claim the Eligible Dependant Credit depending on which child(ren) primarily reside with each."
+    },
+    {
+      "id": 5057,
+      "category": "Tax credits or benefits",
+      "text": "Tax credits and child benefits do not affect the Table amount of child support unless specifically stated otherwise."
+    },
+    {
+      "id": 5058,
+      "category": "Claiming tax credits",
+      "text": "Parties may claim federal and provincial tax benefits for children living primarily with them, including Canada Child Benefit and GST/HST credits."
+    },
+    {
+      "id": 5059,
+      "category": "For Religious School Tuition",
+      "text": "Charitable donation credits for religious school tuition will be shared in proportion to the amount paid by each party."
+    },
+    {
+      "id": 5060,
+      "category": "For Post Secondary Educational Institution",
+      "text": "If the child’s tuition tax credit is not fully used, either party may claim the unused portion if eligible."
+    },
+    {
+      "id": 5061,
+      "category": "Payment of Support through Maintenance Enforcement Agency",
+      "text": "Child support will be paid through and enforced by the MAINTENANCE ENFORCEMENT AGENCY, and this Agreement will be filed with the court and agency."
+    },
+    {
+      "id": 5062,
+      "category": "Direct payment or Registration with Maintenance Enforcement",
+      "text": "If direct payment is agreed upon, either party may register this Agreement with the MAINTENANCE ENFORCEMENT AGENCY in case of default."
+    },
+    {
+      "id": 5063,
+      "category": "Post Dated Checks",
+      "text": "By December 1st annually, the payor will issue twelve post-dated cheques for child support for the following year."
+    },
+    {
+      "id": 5064,
+      "category": "NSF checks",
+      "text": "If any cheque is returned NSF or unprocessable, the payor will reimburse the recipient for all resulting bank charges."
+    },
+    {
+      "id": 5065,
+      "category": "E-transfers",
+      "text": "Child support may be paid via e-transfer to the recipient’s specified email address on the first day of each month."
+    },
+    {
+      "id": 5066,
+      "category": "Bank Transfers",
+      "text": "Child support may be paid by direct deposit from the payor’s bank to the recipient’s account on the first day of each month."
+    },
+    {
+      "id": 5067,
+      "category": "Interest on Late Payments",
+      "text": "Interest at [number]% per year, compounded annually, will apply to any late child support payments, from default date to payment date."
+    },
+    {
+      "id": 6000,
+      "category": "Lump Sum Support",
+      "text": "In full satisfaction of spousal support obligations, a lump sum payment of $[amount] will be made at signing [and additional amount on (date)]."
+    },
+    {
+      "id": 6001,
+      "category": "Interest on late payments",
+      "text": "Interest on unpaid support balance will accrue at [number]% annually, compounded [monthly/annually], until paid."
+    },
+    {
+      "id": 6002,
+      "category": "Fixed Term Support",
+      "text": "Spousal support will be $[amount] per month, starting [date] and ending [date]. On that date, support ends permanently and is non-variable."
+    },
+    {
+      "id": 6003,
+      "category": "Periodic Support",
+      "text": "Spousal support of $[amount] per month begins on [date], with ongoing monthly payments on the first of each month."
+    },
+    {
+      "id": 6004,
+      "category": "Periodic Support with Automatic Review",
+      "text": "Support is $[amount]/month starting [date], subject to review after [number] years. Disputes to be resolved under Dispute Resolution clause."
+    },
+    {
+      "id": 6005,
+      "category": "3rd Party Payments re: Matrimonial Home (no children)",
+      "text": "From [date] until sale of the matrimonial home, one party will cover realty taxes, utilities, insurance, and mortgage interest. These payments are deductible under Income Tax Act sections 56.1(2) and 60.1(2)."
+    },
+    {
+      "id": 6006,
+      "category": "3rd Party Payments with Tax Consequences",
+      "text": "From [date] to [date], one party will pay specific spousal support-related expenses. Payments qualify for income tax treatment as support under the Act."
+    },
+    {
+      "id": 6007,
+      "category": "3rd Party Payments without Tax Consequences",
+      "text": "From [date] to [date], specified expenses will be paid but will not be treated as taxable income or deductions."
+    },
+    {
+      "id": 6008,
+      "category": "Prior Payments",
+      "text": "Spousal support previously paid since [date] is deemed compliant under this Agreement and the Income Tax Act. Deduction and inclusion rules apply."
+    },
+    {
+      "id": 6009,
+      "category": "Tax Reimbursement",
+      "text": "The payor will reimburse the recipient for extra income tax incurred due to retroactive spousal support, including penalties and interest if applicable."
+    },
+    {
+      "id": 6010,
+      "category": "CRA Acknowledgement and Registration",
+      "text": "Both parties will register their child and spousal support arrangements with CRA using Form T1158."
+    },
+    {
+      "id": 6011,
+      "category": "Termination",
+      "text": "Upon request, the payor must provide an annual statement of spousal support received."
+    },
+    {
+      "id": 6012,
+      "category": "Termination at death",
+      "text": "Spousal support terminates upon: (a) death of either party; (b) final payment on [date]; (c) death of payor without insurance; (d) court/arbitrator determination."
+    },
+    {
+      "id": 6013,
+      "category": "Contribution to Own Support",
+      "text": "Recipient must actively pursue self-sufficiency and provide evidence every 6 months of efforts to secure employment or retraining."
+    },
+    {
+      "id": 6014,
+      "category": "Obligation to Notify",
+      "text": "If recipient's income exceeds $[amount], the payor must be notified. Income documentation must be provided upon request."
+    },
+    {
+      "id": 6015,
+      "category": "Reduction Formula",
+      "text": "Spousal support may be reduced by $0.50 for every dollar that recipient’s income exceeds $[threshold]. Adjustment takes effect the following month."
+    },
+    {
+      "id": 6016,
+      "category": "Overpayment",
+      "text": "Overpayments of spousal support may be deducted over [number] months. If the obligation has ended, immediate repayment is required."
+    },
+    {
+      "id": 6017,
+      "category": "Grounds for Variation",
+      "text": "Spousal support may be varied upon a material change in circumstances, including financial, child support, remarriage, cohabitation, or health."
+    },
+    {
+      "id": 6018,
+      "category": "Procedure",
+      "text": "Any party seeking a change must notify the other in writing with evidence and a request for needed information."
+    },
+    {
+      "id": 6019,
+      "category": "What Does NOT Constitute Material Change",
+      "text": "Spousal support will not change due to non-material events such as short-term cohabitation or income drops under a threshold."
+    },
+    {
+      "id": 6020,
+      "category": "Variation of Support in Event of Retirement",
+      "text": "Spousal support may be changed in the event of voluntary or involuntary retirement. Voluntary retirement requires 6 months’ written notice and applies prospectively."
+    },
+    {
+      "id": 6021,
+      "category": "Involuntary Retirement",
+      "text": "In the case of involuntary retirement, written notice must be provided immediately, and changes will apply from the date of retirement or notice, whichever is later."
+    },
+    {
+      "id": 6022,
+      "category": "Financial statement re: retirement",
+      "text": "Retiring party must submit a sworn Financial Statement and all relevant retirement benefit documentation."
+    },
+    {
+      "id": 6023,
+      "category": "Pension income excluded if divided",
+      "text": "Pension benefits already equalized under this Agreement are excluded from retirement income when reviewing spousal support changes."
+    },
+    {
+      "id": 6024,
+      "category": "No Obligation to Notify of Changes Until Review Requested",
+      "text": "No obligation exists to disclose financial changes unless review clauses are activated, except in the case of retirement."
+    },
+    {
+      "id": 6025,
+      "category": "Review When Child Support Ends",
+      "text": "If child support ends or is reduced, and spousal support was reduced to accommodate child support, a review of spousal support may be requested."
+    },
+    {
+      "id": 6026,
+      "category": "Review When Cohabitation Ends",
+      "text": "Spousal support is suspended while recipient is cohabiting with another person in a relationship resembling marriage. Support may be reinstated if cohabitation ends."
+    },
+    {
+      "id": 6027,
+      "category": "Cohabitation Terminates Spousal Support",
+      "text": "If recipient is entitled to support from a new cohabitating partner, the current payor will not be obligated to continue payments."
+    },
+    {
+      "id": 6028,
+      "category": "Timing Of Spousal Support Review",
+      "text": "Either party may request a review of spousal support on a specified date, when child support ends or is reduced, or upon changes in cohabitation status."
+    },
+    {
+      "id": 6029,
+      "category": "Review when last child starts school",
+      "text": "Spousal support may be reviewed when the youngest child starts school or turns age 12, or other triggering events listed in the Agreement occur."
+    },
+    {
+      "id": 6030,
+      "category": "Dispute Resolution",
+      "text": "If parties are unable to agree on spousal support after a triggering event, the matter will be resolved under the Dispute Resolution section."
+    },
+    {
+      "id": 6031,
+      "category": "Payments Continue",
+      "text": "Until adjusted by agreement, arbitration, or court order, spousal support continues under the most recent terms in force."
+    },
+    {
+      "id": 6032,
+      "category": "Indexing Factor",
+      "text": "Spousal support is indexed annually starting [date]. Adjustments use the CPI from three months before the indexing date."
+    },
+    {
+      "id": 6033,
+      "category": "Increase other than by Indexing Factor",
+      "text": "Alternatively, spousal support may be increased by the actual percentage increase in payor’s income for the prior year, if less than the CPI."
+    },
+    {
+      "id": 6034,
+      "category": "Disclosure required",
+      "text": "To apply income-based indexing, the payor must submit income tax returns and supporting documentation from the last two years."
+    },
+    {
+      "id": 6035,
+      "category": "Indexing Requires Amending Agreement",
+      "text": "Index-based support increases require an amending agreement to be signed and filed with the court and enforcement agency."
+    },
+    {
+      "id": 6036,
+      "category": "Interest on Late Payments",
+      "text": "Late spousal support payments will accrue interest at [number]% per year, compounded annually."
+    },
+    {
+      "id": 6037,
+      "category": "If Support Arrears Paid in Lump Sum",
+      "text": "If arrears are paid late in a lump sum causing increased taxes, the payor will reimburse the excess tax burden as liquidated damages."
+    },
+    {
+      "id": 6038,
+      "category": "Costs Upon Default",
+      "text": "If the payor defaults on support, they are liable for all legal fees and expenses incurred by the recipient to enforce payment."
+    },
+    {
+      "id": 6039,
+      "category": "Payment of Support through Enforcement Agency",
+      "text": "Spousal support will be enforced by the MAINTENANCE ENFORCEMENT AGENCY and this Agreement will be filed accordingly. Automatic deductions may apply."
+    },
+    {
+      "id": 6040,
+      "category": "Direct Payment of Support/Non-filing with Enforcement Agency",
+      "text": "Spousal support may be paid directly rather than through the enforcement agency, unless default occurs for more than [number] weeks—then enforcement may proceed."
+    },
+    {
+      "id": 6041,
+      "category": "Post-Dated Checks",
+      "text": "By December 1st each year, the payor must provide twelve post-dated cheques for spousal support for the upcoming year."
+    },
+    {
+      "id": 6042,
+      "category": "NSF checks",
+      "text": "If a cheque is returned or unprocessable, the payor is responsible for all related bank fees incurred by the recipient."
+    },
+    {
+      "id": 6043,
+      "category": "E-Transfers",
+      "text": "Spousal support may be paid via e-transfer to the recipient’s designated email address on the first day of each month."
+    },
+    {
+      "id": 6044,
+      "category": "Inter-Bank Transfers",
+      "text": "Spousal support may be paid by direct deposit from the payor’s bank to the recipient’s bank on the first day of each month."
+    },
+    {
+      "id": 6045,
+      "category": "No Variation or Indexing",
+      "text": "Neither party will apply to a provincial or federal court to vary spousal support terms except as provided by this Agreement and under the specified provincial legislation."
+    },
+    {
+      "id": 7000,
+      "category": "Spousal Support Release",
+      "text": "Upon the terms of this Agreement, the parties release all present and future claims to spousal support, retroactively and prospectively. They are now financially independent."
+    },
+    {
+      "id": 7001,
+      "category": "Intention to Release of Spousal Support",
+      "text": "The parties intend this Agreement to be final, binding, and non-variable in all respects regarding spousal support."
+    },
+    {
+      "id": 7002,
+      "category": "Fair negotiation",
+      "text": "Each party confirms that they received independent legal advice, negotiated fairly, and believe the Agreement equitably reflects the consequences of their relationship."
+    },
+    {
+      "id": 7003,
+      "category": "No Variation of Spousal Support Release Permitted",
+      "text": "Even in the face of extreme, unforeseen, or catastrophic changes in life circumstances, neither party will be entitled to seek spousal support. Financial independence remains absolute."
+    },
+    {
+      "id": 7004,
+      "category": "Repayment of Equalization if Spousal Support Ordered",
+      "text": "If any court ever awards spousal support despite this Agreement, the equalization payment must be returned and recalculated."
+    },
+    {
+      "id": 7005,
+      "category": "Acknowledgement re Caselaw overturning Releases",
+      "text": "Parties acknowledge court rulings that override releases but agree this Agreement is to be enforced as a complete defense to any future spousal support claim."
+    },
+    {
+      "id": 8000,
+      "category": "Dispute Resolution",
+      "text": "This Dispute Resolution section applies to disputes or proposed changes relating to reviewable or variable terms, relocations, and significant parenting changes."
+    },
+    {
+      "id": 8001,
+      "category": "Negotiation First",
+      "text": "If a dispute arises, parties must first attempt negotiation directly or through counsel. The initiating party must provide written notice, evidence, and any relevant information requests."
+    },
+    {
+      "id": 8002,
+      "category": "Amending Agreement if resolution",
+      "text": "The responding party must answer within a set number of days. The parties will meet personally or via representatives to resolve the matter. Any resolution will be formalized in an amending agreement signed before witnesses."
+    },
+    {
+      "id": 8003,
+      "category": "Mediation",
+      "text": "If negotiation fails, the parties will engage a mutually agreed-upon mediator. Costs will be shared equally or as specified, and a mediation agreement will be signed."
+    },
+    {
+      "id": 8004,
+      "category": "Mediation/Arbitration",
+      "text": "If mediation fails, the parties will engage a mediator/arbitrator. The process will follow the Arbitration Act and result in a binding award unless appealed under law."
+    },
+    {
+      "id": 8005,
+      "category": "Arbitration",
+      "text": "If unresolved through prior steps, the parties will engage an arbitrator under the Arbitration Act. The decision is binding and may be appealed on specific grounds."
+    },
+    {
+      "id": 8006,
+      "category": "Notice of Application",
+      "text": "If all alternative resolution methods fail, either party may apply to court with at least [number] days’ written notice."
+    },
+    {
+      "id": 9000,
+      "category": "Health Insurance Definitions",
+      "text": "\"Medical needs\" include all mental and physical health services such as prescriptions, dental, vision, therapy, and alternative care. \"Health insurance\" includes medical, dental, and extended benefits."
+    },
+    {
+      "id": 9001,
+      "category": "Where No Health Insurance Available",
+      "text": "If neither party has health insurance, each is responsible for their own medical needs."
+    },
+    {
+      "id": 9002,
+      "category": "Payor to Maintain Health Insurance",
+      "text": "The supporting party must maintain the recipient as a beneficiary under their employment health insurance plan, for as long as coverage is available."
+    },
+    {
+      "id": 9003,
+      "category": "Authorization",
+      "text": "If allowed, the supporting party will authorize direct claims by the recipient to the insurer and direct reimbursement to the recipient."
+    },
+    {
+      "id": 9004,
+      "category": "Reimbursement with receipts",
+      "text": "If direct claim is not possible, the supporting party will submit receipts and forward reimbursements promptly via endorsement or e-transfer."
+    },
+    {
+      "id": 9005,
+      "category": "Replacement Insurance",
+      "text": "If health insurance lapses, replacement private insurance must be obtained immediately, provided it's reasonably available."
+    },
+    {
+      "id": 9006,
+      "category": "No Replacement Insurance",
+      "text": "If coverage ceases, written notice must be given. Medical costs incurred before notice must be reimbursed. Afterward, each party covers their own needs."
+    },
+    {
+      "id": 9007,
+      "category": "Termination of Coverage When Spousal Support Ends",
+      "text": "Once spousal support ends, the payor may remove the recipient from health insurance coverage after 30 days’ notice."
+    },
+    {
+      "id": 9008,
+      "category": "Where No Health Insurance Available",
+      "text": "If neither party has health insurance, and support for a child continues, they will share the child’s medical costs equally or in proportion to income."
+    },
+    {
+      "id": 9009,
+      "category": "Payor to Maintain Health Insurance",
+      "text": "The supporting party must keep the child listed as a beneficiary under employment insurance for as long as support is required."
+    },
+    {
+      "id": 9010,
+      "category": "Both to Maintain Health Insurance",
+      "text": "Both parties may hold the child as a beneficiary under their respective plans. Reimbursement claims and payments must be coordinated cooperatively."
+    },
+    {
+      "id": 9011,
+      "category": "Replacement Insurance",
+      "text": "If neither plan is available, the obligated party must acquire private insurance for the child, if reasonably available."
+    },
+    {
+      "id": 9012,
+      "category": "No Replacement Insurance",
+      "text": "If coverage ends unexpectedly, written notice is required. Medical costs incurred before notice must be reimbursed. Future expenses are shared based on agreement."
+    },
+    {
+      "id": 9013,
+      "category": "Orthodontic Expenses",
+      "text": "Orthodontic costs will be paid with prior written consent from the other party, not to be unreasonably withheld. Disputes go to resolution."
+    },
+    {
+      "id": 9014,
+      "category": "Uncovered Medical Expenses",
+      "text": "Uncovered medical costs will be shared equally or in proportion, unless pre-approval was not obtained. Disputes go to resolution."
+    },
+    {
+      "id": 9015,
+      "category": "Termination Of Coverage When Child Support Ends",
+      "text": "Once child support ends, 30 days’ written notice allows removal of the child from the payor’s health plan."
+    },
+    {
+      "id": 9016,
+      "category": "Where No Health Insurance Available",
+      "text": "Parties without insurance must each pay their own medical costs and share child-related expenses based on agreement or section 7 rules."
+    },
+    {
+      "id": 9017,
+      "category": "Payor to Maintain Health Insurance",
+      "text": "While support is owed, parties must maintain the supported child as a health insurance beneficiary and handle claims/reimbursements cooperatively."
+    },
+    {
+      "id": 9018,
+      "category": "Spouse and Both to Maintain Health Insurance for Children",
+      "text": "If both parents support the same child, both will maintain the child under insurance. Reimbursement must be prompt and coordinated."
+    },
+    {
+      "id": 9019,
+      "category": "Replacement Insurance",
+      "text": "If insurance becomes unavailable, new private coverage must be obtained immediately to avoid coverage gaps, provided it is reasonably priced."
+    },
+    {
+      "id": 9020,
+      "category": "No Replacement Insurance",
+      "text": "Written notice is required if coverage ends. Parties will reimburse costs incurred before notice and share expenses thereafter."
+    },
+    {
+      "id": 9021,
+      "category": "Orthodontic Expenses for Children",
+      "text": "Orthodontic treatment will be covered with prior consent. If the parties cannot agree, dispute resolution is required."
+    },
+    {
+      "id": 9022,
+      "category": "Uncovered Medical Expenses for Children",
+      "text": "Uninsured medical expenses are shared equally or in proportion. Consent must be obtained beforehand unless the issue is resolved through dispute resolution."
+    },
+    {
+      "id": 9023,
+      "category": "Termination of Coverage When Support Ends",
+      "text": "Spousal support ending allows removal of the recipient from health coverage with 30 days’ notice."
+    },
+    {
+      "id": 9024,
+      "category": "Notice to Insurer",
+      "text": "Child support ending allows removal of the child from health insurance with 30 days’ notice."
+    },
+    {
+      "id": 9025,
+      "category": "Notice to other party",
+      "text": "The insurer must notify the other party in writing of any changes or termination of health coverage in a timely manner."
+    },
+    {
+      "id": 9026,
+      "category": "Health Coverage Indemnity",
+      "text": "If a party fails to maintain required insurance, they must repay the other for any resulting losses or uncovered expenses."
+    },
+    {
+      "id": 10000,
+      "category": "Existing Life Insurance",
+      "text": "A party owns a life insurance policy through employment in the amount of $[amount]. The full face value is available and unencumbered."
+    },
+    {
+      "id": 10001,
+      "category": "Alternate - New Individual Policy",
+      "text": "A party will apply for a life insurance policy in the amount of $[amount], and undergo any required medical exams."
+    },
+    {
+      "id": 10002,
+      "category": "Alternate - New Joint Policy",
+      "text": "Parties will jointly apply for life insurance on one party’s life in the amount of $[amount], with shared ownership as specified (e.g., joint tenancy)."
+    },
+    {
+      "id": 10003,
+      "category": "Obligation to Pay Premiums",
+      "text": "The policyholder must pay premiums on time. If another party pays to prevent lapse, the amount is treated as support and reimbursable."
+    },
+    {
+      "id": 10004,
+      "category": "Spouse as Beneficiary Outright",
+      "text": "The policy must remain active during and for one year following support obligations. Beneficiary must be irrevocably designated as security for child support."
+    },
+    {
+      "id": 10005,
+      "category": "Alternate - Third Party Trustee",
+      "text": "Trustees may be appointed to manage insurance proceeds on behalf of children, with detailed trust terms attached or referenced."
+    },
+    {
+      "id": 10006,
+      "category": "Life Insurance to Secure Spousal Support",
+      "text": "If obligated to pay spousal support, the policyholder will keep the policy active and designate the recipient as irrevocable beneficiary for outstanding obligations."
+    },
+    {
+      "id": 10007,
+      "category": "Proof of Policy and [Irrevocable] Beneficiary Designation",
+      "text": "Prior to signing, the policyholder will provide a copy of the policy and irrevocable beneficiary designation, and sign an Authorization and Direction form."
+    },
+    {
+      "id": 10008,
+      "category": "Proof of Premium Payments",
+      "text": "Annual proof of premium payment will be provided within 14 days of each policy anniversary."
+    },
+    {
+      "id": 10009,
+      "category": "Release of Irrevocable Beneficiary Designation - Individual Policy",
+      "text": "Once support obligations end, the policyholder may terminate the irrevocable beneficiary designation. If refused, a court order may be pursued."
+    },
+    {
+      "id": 10010,
+      "category": "Alternate - Release of Interest - Joint Policy",
+      "text": "Upon termination of support, the policyholder will transfer policy ownership. If refused, a court order may be obtained at the refusing party’s cost."
+    },
+    {
+      "id": 10011,
+      "category": "Replacement Coverage",
+      "text": "If the existing policy lapses or cannot be maintained, replacement insurance must be secured immediately at a reasonable cost."
+    },
+    {
+      "id": 10012,
+      "category": "Death of Policy Owner",
+      "text": "If the policyholder dies, their estate continues paying support obligations until insurance proceeds are received."
+    },
+    {
+      "id": 10013,
+      "category": "Lien Against Estate",
+      "text": "If the required policy is not in force at death, the recipient has a lien against the estate for the full amount of support owed."
+    },
+    {
+      "id": 10014,
+      "category": "Review of Policy Amount",
+      "text": "The policy amount may be reviewed every [number] years to determine if a change is warranted based on remaining support obligations and other factors."
+    },
+    {
+      "id": 10015,
+      "category": "Automatic Reduction of Policy Amount by Specified Amount or Percentage",
+      "text": "The policy amount may be automatically reduced every [number] years by $[amount] or by [percentage] %."
+    },
+    {
+      "id": 10016,
+      "category": "Alternate - Automatic Reduction of Policy Amount according to Schedule",
+      "text": "A fixed schedule may be used to reduce the required policy amount, beginning on a specified date with set reduction amounts."
+    },
+    {
+      "id": 10017,
+      "category": "Review if Material Increase in Premium Payments",
+      "text": "If premiums increase materially, the parties may renegotiate policy terms or cost-sharing. Disputes will be resolved via dispute resolution clause."
+    },
+    {
+      "id": 10018,
+      "category": "Variable if Material Change in Circumstances",
+      "text": "The amount of required insurance is variable and subject to adjustment in the event of a material change in circumstances."
+    },
+    {
+      "id": 10019,
+      "category": "Dispute Resolution-Life Insurance",
+      "text": "Any issue regarding insurance coverage amount or changes will be resolved using the dispute resolution procedures in the Agreement."
+    },
+    {
+      "id": 11000,
+      "category": "Property",
+      "text": "The parties have agreed on a division of property based on the attached calculations and will divide property accordingly."
+    },
+    {
+      "id": 11001,
+      "category": "Settlement of Family Property",
+      "text": "A payment of $[amount] will be made via certified cheque by [date/time] to complete the property equalization settlement."
+    },
+    {
+      "id": 11002,
+      "category": "Settlement under Provincial law",
+      "text": "This payment satisfies all equalization claims of the INSERT PROVINCIAL LEGISLATION NAME HERE, unless otherwise addressed in the pension section."
+    },
+    {
+      "id": 11003,
+      "category": "Default Terms - Interest and/or Acceleration",
+      "text": "If payment is late, interest at [rate]% applies after 14 days. Full payment may be accelerated, and additional penalties may apply including suspension of spousal support release."
+    },
+    {
+      "id": 11004,
+      "category": "Security for Payment",
+      "text": "To secure payment, the RRSP plan holder will restrict RRSP transfers without written consent until all payments under this Agreement are complete."
+    },
+    {
+      "id": 11005,
+      "category": "Investment Accounts",
+      "text": "Investment account assets will be transferred in equal shares between the parties as of a specified valuation date."
+    },
+    {
+      "id": 11006,
+      "category": "Bank Accounts",
+      "text": "Joint bank accounts will be divided equally unless otherwise specified. Individual accounts will remain with their respective owners."
+    },
+    {
+      "id": 11007,
+      "category": "RRSP Transfers",
+      "text": "RRSP transfers under section 146(16) of the Income Tax Act will be completed, including execution of Form T2220 and tax-free rollover."
+    },
+    {
+      "id": 11008,
+      "category": "RRSP Transfers Tax Consequences",
+      "text": "The recipient of the RRSP transfer is responsible for any taxes or fees on collapse or transfer, except their own income tax."
+    },
+    {
+      "id": 11009,
+      "category": "Shares",
+      "text": "Corporate shares will be transferred to the transferee who will assume all liabilities. The transferor will resign from all positions and release future claims."
+    },
+    {
+      "id": 11010,
+      "category": "Transfer of Capital Property as a Rollover",
+      "text": "Capital assets may be transferred on a tax-free rollover basis."
+    },
+    {
+      "id": 11011,
+      "category": "Alternate - Transfer of Capital Property with Joint Election",
+      "text": "Joint election under s. 74.5(3)(b) of the Income Tax Act will be filed to avoid attribution of taxable capital gains. The transferee indemnifies the transferor."
+    },
+    {
+      "id": 11012,
+      "category": "Alternate - Transfer of Capital Property at Fair Market Value",
+      "text": "A capital asset may be transferred at fair market value. The transferor may elect out of rollover provisions under s. 73(1) of the Income Tax Act."
+    },
+    {
+      "id": 11013,
+      "category": "Vehicles",
+      "text": "Vehicle ownership will be transferred. The original owner will cover any transfer documentation and indemnify the new owner from liabilities until insured."
+    },
+    {
+      "id": 11014,
+      "category": "Airline Rewards",
+      "text": "Airline rewards will be equalized by direct transfer, cash equivalent, or booking travel of equivalent value depending on program rules."
+    },
+    {
+      "id": 11015,
+      "category": "Indemnity for Tax Liabilities",
+      "text": "The transferor declares no prior income tax liabilities. Any liability arising from transferred property will be indemnified by the transferor and enforceable by judgment."
+    },
+    {
+      "id": 11016,
+      "category": "Property and Support Interdependent",
+      "text": "Spousal support and property provisions are interdependent. Together they satisfy support objectives under the Divorce Act and provincial legislation."
+    },
+    {
+      "id": 11017,
+      "category": "Alternate - Interdependent Clause",
+      "text": "The support and property sections are interdependent and fulfill objectives under the Divorce Act by recognizing economic impact, allocating child-related financial burdens, relieving hardship, and promoting self-sufficiency."
+    },
+    {
+      "id": 11018,
+      "category": "Alternate - Interdependent Clause – Provincial laws",
+      "text": "The Agreement satisfies support objectives under the INSERT PROVINCIAL LEGISLATION NAME HERE by recognizing each party’s contribution, sharing child support burdens, encouraging independence, and relieving financial hardship."
+    },
+    {
+      "id": 11019,
+      "category": "Intention of Agreement to be Binding",
+      "text": "All property, income tax, and financial transfers set out in this Agreement are binding and enforceable as final settlement unless otherwise varied by mutual agreement or court order."
+    },
+    {
+      "id": 12000,
+      "category": "Ownership - Joint / Tenants-in-Common",
+      "text": "The parties own the matrimonial home jointly or as tenants-in-common."
+    },
+    {
+      "id": 12001,
+      "category": "Alternate - Sole Ownership",
+      "text": "One party is the sole registered owner of the matrimonial home."
+    },
+    {
+      "id": 12002,
+      "category": "Severance of Joint Tenancy",
+      "text": "The joint tenancy in the matrimonial home is severed, and it is now held as tenants-in-common."
+    },
+    {
+      "id": 12003,
+      "category": "Transfer of Home in Settlement",
+      "text": "Upon signing the Agreement, a party will transfer full title of the matrimonial home to the other, free of encumbrances, and cover related costs."
+    },
+    {
+      "id": 12004,
+      "category": "Alternate - Transfer of Home for Value",
+      "text": "One party transfers their interest in the matrimonial home to the other for a set amount or calculated value. Transfer costs are allocated."
+    },
+    {
+      "id": 12005,
+      "category": "Mutual Transfer of Home and Cottage",
+      "text": "Both matrimonial home and cottage transfers will be completed upon signing, with parties covering registration costs as agreed."
+    },
+    {
+      "id": 12006,
+      "category": "Encumbrance Registered before Transfer",
+      "text": "Any encumbrance registered after signing and before transfer must be cleared by the responsible party, who will indemnify the other."
+    },
+    {
+      "id": 12007,
+      "category": "Value of Matrimonial Home",
+      "text": "The parties agree on the matrimonial home's value, optionally based on a designated appraiser."
+    },
+    {
+      "id": 12008,
+      "category": "Alternate - Value of Matrimonial Home by Jointly Retained Appraiser",
+      "text": "If no agreed value, the matrimonial home will be appraised jointly. If appraisals differ, the average or third-party appraisal determines the value."
+    },
+    {
+      "id": 12009,
+      "category": "Notional Deductions on buyout",
+      "text": "If one party is buying out the other, deductions may apply for notional real estate commission and legal expenses."
+    },
+    {
+      "id": 12010,
+      "category": "Existing Mortgage - Release or Indemnity",
+      "text": "Responsibility for existing mortgage payments, penalties, fees, and discharge lies with the assuming party. They will indemnify the other if a release is not secured."
+    },
+    {
+      "id": 12011,
+      "category": "Alternate - Existing Mortgage - Release or Refinance",
+      "text": "If mortgage release is not obtained, the responsible party must refinance and discharge the existing mortgage."
+    },
+    {
+      "id": 12012,
+      "category": "Principal Residence",
+      "text": "Both parties designate the home as their principal residence up to the transfer date. Any tax from breach will be reimbursed by the breaching party."
+    },
+    {
+      "id": 12013,
+      "category": "Date for Completion of Transfer and Sanctions for Delay",
+      "text": "Transfer of the matrimonial home must be completed within 60 days of signing the Agreement. Sanctions apply if not completed on time."
+    },
+    {
+      "id": 12014,
+      "category": "Release Property Rights in the Matrimonial Home",
+      "text": "Once transfer is complete, the transferor releases all rights under the INSERT PROVINCIAL LEGISLATION NAME HERE."
+    },
+    {
+      "id": 12015,
+      "category": "Agreement to List and Sell",
+      "text": "Parties will list the matrimonial home for sale by a specified date and accept the first reasonable offer. Disputes go to resolution."
+    },
+    {
+      "id": 12016,
+      "category": "If Agreement Cannot be Reached",
+      "text": "If the sale cannot be agreed upon, the parties consent to a judicial sale under provincial legislation. Either may apply to court."
+    },
+    {
+      "id": 12017,
+      "category": "Exclusive Possession Until Sale",
+      "text": "One party may retain exclusive possession of the matrimonial home until closing, covering daily expenses and sharing major expenses as agreed."
+    },
+    {
+      "id": 12018,
+      "category": "Household Expenses",
+      "text": "\"Daily household expenses\" include utilities, internet, security, and small repairs. \"Major repairs\" are defined separately and exclude cosmetic upgrades."
+    },
+    {
+      "id": 12019,
+      "category": "Daily Expenses",
+      "text": "Daily expenses will be paid by the party in exclusive possession."
+    },
+    {
+      "id": 12020,
+      "category": "Major Expenses",
+      "text": "Major expenses will be split equally or in a specified ratio. One party may cover and be reimbursed from sale proceeds."
+    },
+    {
+      "id": 12021,
+      "category": "Consent Required for Major Expenses",
+      "text": "Neither party will incur major home expenses without the other's written consent."
+    },
+    {
+      "id": 12022,
+      "category": "Sale Proceeds",
+      "text": "Proceeds from sale will first pay sale-related expenses, agreed reimbursements, and joint debt before the balance is divided equally or as agreed."
+    },
+    {
+      "id": 12023,
+      "category": "Mortgage Renewal",
+      "text": "While a party has exclusive possession, the other will co-sign or guarantee mortgage renewals/replacements up to a specified amount."
+    },
+    {
+      "id": 12024,
+      "category": "Indemnity for any losses from Mortgage renewal",
+      "text": "The guaranteeing party is indemnified from any loss or liability resulting from the mortgage guarantee."
+    },
+    {
+      "id": 12025,
+      "category": "Ownership until Sale",
+      "text": "Until sale, parties hold title as joint tenants or tenants-in-common. Severance restrictions may apply."
+    },
+    {
+      "id": 12026,
+      "category": "Delayed Sale of the Home",
+      "text": "The home will be sold when the youngest child finishes school, one party remarries or cohabits, or by a specific date."
+    },
+    {
+      "id": 12027,
+      "category": "House Contents Already Divided",
+      "text": "Household contents have been divided to the parties’ mutual satisfaction."
+    },
+    {
+      "id": 12028,
+      "category": "Divided per Schedule",
+      "text": "Household contents have been divided per the attached Schedule to this Agreement."
+    },
+    {
+      "id": 12029,
+      "category": "Division with Assistance if Necessary",
+      "text": "Parties agree to divide household contents equally and execute an acknowledgment. If they cannot agree, they will resolve it via dispute resolution."
+    },
+    {
+      "id": 13000,
+      "category": "Joint Debts",
+      "text": "The parties have joint debts listed in the Agreement. Each assumes responsibility for specific debts and agrees to use best efforts to release the other from liability."
+    },
+    {
+      "id": 13001,
+      "category": "No additional charges included",
+      "text": "Until released from a joint debt, neither party will incur additional charges on the account. The responsible party will indemnify the other."
+    },
+    {
+      "id": 13002,
+      "category": "Separate Debts",
+      "text": "Each party will be solely responsible for their personal debts and will indemnify the other from any liability related to those debts."
+    },
+    {
+      "id": 13003,
+      "category": "Joint Credit Cards",
+      "text": "All jointly held credit cards will be cancelled upon signing this Agreement. Each party assumes the balance for designated accounts."
+    },
+    {
+      "id": 13004,
+      "category": "Credit Card Indemnity",
+      "text": "If a party becomes liable for a credit card or other debt assumed by the other, the assuming party will fully indemnify them."
+    },
+    {
+      "id": 13005,
+      "category": "Joint Line of Credit/Mortgage Debts Assumption and Release",
+      "text": "One party will assume responsibility for shared liabilities such as a mortgage or line of credit, and will use best efforts to obtain a release for the other party."
+    },
+    {
+      "id": 13006,
+      "category": "Family Loans",
+      "text": "Family loans evidenced by promissory notes are to be assumed by the designated party, who will indemnify the other and obtain a release with proof."
+    },
+    {
+      "id": 13007,
+      "category": "Guarantor for home until released",
+      "text": "If one party has exclusive possession of the home, the other will remain a guarantor until released. They must sign mortgage renewals within one week of request."
+    },
+    {
+      "id": 13008,
+      "category": "Loans between Parties",
+      "text": "Loans between the parties are forgiven where noted and no repayment will be expected."
+    },
+    {
+      "id": 13009,
+      "category": "Pledge of Credit",
+      "text": "Neither party may pledge or bind the other's credit after the signing of this Agreement. Both confirm no such pledges have occurred since separation."
+    },
+    {
+      "id": 13010,
+      "category": "Indemnities",
+      "text": "A party obligated to indemnify must reimburse all losses, expenses, or legal fees incurred by the other, and pay interest on amounts covered under this Agreement."
+    },
+    {
+      "id": 14000,
+      "category": "Canada Pension Plan",
+      "text": "Either party may apply for a division of Canada Pension Plan credits."
+    },
+    {
+      "id": 14001,
+      "category": "Pension under the Provincial Pensions - Intention to Equalize and Divide Pension",
+      "text": "Where pension value is not included in net family property, it will be divided according to the Pension Benefits Act (PBA) and Agreement terms."
+    },
+    {
+      "id": 14002,
+      "category": "Intention to Equalize/Divide Pension as Part of Property Equalization",
+      "text": "Where pension value is to be equalized, it will be valued but not divided. It will be included in net family property and equalized accordingly."
+    },
+    {
+      "id": 14003,
+      "category": "Definitions",
+      "text": "Definitions such as AVCs, EMCs, Family Law Valuation Date, Plan, Plan Administrator, and transfer ratio apply to all pension-related clauses."
+    },
+    {
+      "id": 14004,
+      "category": "Separation date",
+      "text": "The Family Law Valuation Date is the agreed or court-ordered date of separation for pension valuation purposes."
+    },
+    {
+      "id": 14005,
+      "category": "Maximum transferable value specified in Pension Division Letter",
+      "text": "The maximum transferable value from the Plan to the non-member is specified, with options such as LIRA, LIF, RRSP, or another pension plan."
+    },
+    {
+      "id": 14006,
+      "category": "Lump Sum Transfer to spouse",
+      "text": "The transfer will be made as a lump sum to a registered account designated by the non-member spouse."
+    },
+    {
+      "id": 14007,
+      "category": "Full cooperation required",
+      "text": "Parties agree to cooperate fully, complete all forms, and submit documentation to facilitate pension transfer."
+    },
+    {
+      "id": 14008,
+      "category": "No party to jeopardize pension division   ",
+      "text": "No party will take actions that jeopardize pension division. If they do, remedies such as support recalculation or equalization adjustment may apply."
+    },
+    {
+      "id": 14009,
+      "category": "Death of Pension Member",
+      "text": "If the pension member dies before the lump sum is transferred, the value will be paid to the estate of the non-member."
+    },
+    {
+      "id": 14010,
+      "category": "Tax Consequences",
+      "text": "All transfers are in pre-tax dollars. Tax consequences are accounted for in the equalization or as separately addressed."
+    },
+    {
+      "id": 14011,
+      "category": "Division Option 1 - Division of Pension Instalments",
+      "text": "Where a retired pension is already in pay, instalments may be divided or converted into a combined pension payable to the recipient."
+    },
+    {
+      "id": 14012,
+      "category": "Division of installments  - Arrears in payment",
+      "text": "Arrears from the valuation date to transfer date may be recovered through increased instalments to the non-member and decreased instalments to the member."
+    },
+    {
+      "id": 14013,
+      "category": "Pension Administrator to be Directed by Agreement",
+      "text": "The Plan Administrator will be directed to act in accordance with the Agreement, including adjusting payments for arrears and enforcing division terms."
+    },
+    {
+      "id": 14014,
+      "category": "Waiver/Release of Survivor Benefits",
+      "text": "Waivers of survivor benefits may be executed using prescribed forms. The waiver terms vary depending on the pension's pay status and the agreement structure."
+    },
+    {
+      "id": 14015,
+      "category": "Death of party before waiver",
+      "text": "If one party dies before waiver or transfer is complete, alternative outcomes such as transfer to estate or cancellation of division may apply."
+    },
+    {
+      "id": 14016,
+      "category": "Alternate - Payment Lump Sum (Special Circumstances)",
+      "text": "The Agreement may allow a combined pension to be paid in lieu of dividing instalments or survivor benefits."
+    },
+    {
+      "id": 14017,
+      "category": "All pension forms completed",
+      "text": "All pension division-related applications, will be completed as required."
+    },
+    {
+      "id": 14018,
+      "category": "No Division of Pension Benefits/Pension by Plan Administrator",
+      "text": "If no division is pursued through the PBA, parties agree to equalize pension value through net family property instead."
+    },
+    {
+      "id": 14019,
+      "category": "Additional Voluntary Contributions (AVCs)",
+      "text": "Additional Voluntary Contributions (AVCs) and Excess Member Contributions (EMCs) earned during the relationship are equalized through property division."
+    },
+    {
+      "id": 14020,
+      "category": "Equalization of Family Law Value of Spouse's Survivor Benefits",
+      "text": "Survivor benefits are considered part of net family property and included in the equalization payment."
+    },
+    {
+      "id": 14021,
+      "category": "Tax Consequences",
+      "text": "Any pension transfer made under the PBA is in before-tax dollars, and tax adjustments have been applied in the equalization calculation."
+    },
+    {
+      "id": 14022,
+      "category": "One Party Waives Survivor Benefits",
+      "text": "One party waives all claims to survivor benefits and acknowledges they are not entitled to joint or survivor benefits under the Plan."
+    },
+    {
+      "id": 14023,
+      "category": "Pension in Pay",
+      "text": "If the pension is already in pay, the parties will execute Pension Form (Post-retirement Waiver) to formally waive survivor benefits."
+    },
+    {
+      "id": 14024,
+      "category": "Waiver form if no division",
+      "text": "If the pension is not to be divided, the parties will execute Pension Form FL-8 and submit it to the Plan Administrator to waive survivor entitlements."
+    },
+    {
+      "id": 14025,
+      "category": "Release After Division",
+      "text": "After pension transfers or divisions are complete, all further claims to the pension, including survivor and death benefits, are fully released."
+    },
+    {
+      "id": 14026,
+      "category": "Federal Pensions",
+      "text": "\"PBDA\" means the Pension Benefits Division Act. This governs public service pensions subject to federal division rules."
+    },
+    {
+      "id": 14027,
+      "category": "Pensions under PBDA",
+      "text": "The Plan under PBDA is a federally regulated pension such as one governed by the Public Service Superannuation Act or Supplementary Retirement Benefits Act."
+    },
+    {
+      "id": 14028,
+      "category": "50% of pension is due to the non-member",
+      "text": "The parties confirm the pension was accumulated during the relationship and that 50% is due to the non-member, either now or upon division."
+    },
+    {
+      "id": 14029,
+      "category": "Federal Pension not included in Net Family Property",
+      "text": "Pension value will not be included in net family property but instead paid directly under the PBDA and per this Agreement."
+    },
+    {
+      "id": 14030,
+      "category": "Either Party Can Apply for division",
+      "text": "Either party may apply under section 4(1) of the PBDA for division of pension benefits. Both parties will fully cooperate."
+    },
+    {
+      "id": 14031,
+      "category": "Application includes details of relationship",
+      "text": "The application to divide PBDA benefits includes confirmation of separation, addresses, dates of birth, employer info, and waiver of objections under PBDA."
+    },
+    {
+      "id": 14032,
+      "category": "Minister to transfer 50% of pension value to non-member",
+      "text": "The Minister will transfer 50% of the pension value earned during the relationship into a registered retirement vehicle selected by the non-member."
+    },
+    {
+      "id": 14033,
+      "category": "Maximum Transferable Amount -Shortfall Paid by Member",
+      "text": "If the maximum transferable amount under provincial legislation is less than agreed pension value, the member party will pay the difference to the other."
+    },
+    {
+      "id": 14034,
+      "category": "Tax Consequences",
+      "text": "Transferred pension funds are in before-tax dollars. Equalization calculations reflect the gross value."
+    },
+    {
+      "id": 14035,
+      "category": "Lump Sum Transfer",
+      "text": "A specified lump sum will be transferred to a retirement account of the non-member, pursuant to PBDA rules."
+    },
+    {
+      "id": 14036,
+      "category": "Death Before Transfer is Completed",
+      "text": "If the non-member dies before transfer completion, the funds will be transferred to their estate."
+    },
+    {
+      "id": 14037,
+      "category": "Member Acts as Trustee",
+      "text": "Until transfer is complete, the member acts as trustee for the other party’s interest and must ensure all communications are shared."
+    },
+    {
+      "id": 14038,
+      "category": "Authority to Release Information to Other Party",
+      "text": "The member must authorize the Plan to release information directly to the other party and notify the administrator of all pension terms in this Agreement."
+    },
+    {
+      "id": 14039,
+      "category": "Non Compliance of Terms",
+      "text": "If the member fails to comply with trust terms, the other party may obtain a court order without notice to protect their pension interest."
+    },
+    {
+      "id": 14040,
+      "category": "Irrevocable Direction to Plan Administrator",
+      "text": "The pension member irrevocably directs the Plan Administrator to comply with the terms of this Agreement and protect the non-member’s pension interests."
+    },
+    {
+      "id": 14041,
+      "category": "Non Member Irrevocable Beneficiary",
+      "text": "The member must designate the non-member as irrevocable beneficiary of $[amount] in life insurance to secure pension-related obligations if they die before obligations are satisfied."
+    },
+    {
+      "id": 14042,
+      "category": "When Pension Division Cannot be Completed",
+      "text": "If the agreed method of pension division cannot be completed, the non-member retains a 50% interest in benefits earned during the relationship."
+    },
+    {
+      "id": 14043,
+      "category": "Dispute Resolution",
+      "text": "If the parties cannot agree on alternative pension arrangements, the issue will be resolved by Dispute Resolution or a court of competent jurisdiction."
+    },
+    {
+      "id": 14044,
+      "category": "Waiver of Limitation Periods",
+      "text": "The parties agree to waive any applicable limitation periods and to execute any amendments needed to give full effect to this Agreement."
+    },
+    {
+      "id": 15000,
+      "category": "General Release - Short Form",
+      "text": "This Agreement is a full and final settlement of all issues between the parties and all rights and obligations arising from their relationship."
+    },
+    {
+      "id": 15001,
+      "category": "General Release - Long Form",
+      "text": "Except as otherwise provided, the parties release each other from all claims at common law, equity, or by statute, including under the Divorce Act, the INSERT PROVINCIAL LEGISLATION NAME HERE, the Provincial Property Division Act, and any Estate/Wills/Probate Acts."
+    },
+    {
+      "id": 15002,
+      "category": "Full and Final Satisfaction of All Claims in Outstanding Court Application",
+      "text": "This Agreement satisfies all claims previously made in Court File No. [court file number] in the [specify court] at [City, Province]."
+    },
+    {
+      "id": 16000,
+      "category": "Domestic Contract",
+      "text": "This Agreement is a domestic contract under the INSERT PROVINCIAL LEGISLATION NAME HERE and prevails over matters addressed in that legislation."
+    },
+    {
+      "id": 16001,
+      "category": "No Representations",
+      "text": "This Agreement constitutes the complete and final understanding between the parties. No other terms, warranties, or representations exist."
+    },
+    {
+      "id": 16002,
+      "category": "Reconciliation",
+      "text": "If parties reconcile for 90 days or less, this Agreement remains in effect. After 90+ days of cohabitation, the Agreement becomes void, except for transfers already completed."
+    },
+    {
+      "id": 16003,
+      "category": "Severability",
+      "text": "If any provision is invalid or unenforceable, it is severed without affecting the remainder of the Agreement."
+    },
+    {
+      "id": 16004,
+      "category": "Headings",
+      "text": "Section headings are for convenience only and do not affect interpretation."
+    },
+    {
+      "id": 16005,
+      "category": "Application Already Commenced",
+      "text": "On execution of this Agreement, either party may proceed to obtain a divorce judgment, incorporating this Agreement if applicable, with no costs payable."
+    },
+    {
+      "id": 16006,
+      "category": "Application to be Commenced by One Party",
+      "text": "Parties will cooperate in any divorce application and proceed on an uncontested basis. Service of documents will be facilitated."
+    },
+    {
+      "id": 16007,
+      "category": "Application to be Commenced by Either Party",
+      "text": "Parties may agree to share divorce-related costs equally, or assign them to one party."
+    },
+    {
+      "id": 16008,
+      "category": "Costs to be Borne by One Party",
+      "text": "Specified paragraphs of this Agreement may be incorporated into the divorce order with the parties' consent."
+    },
+    {
+      "id": 16009,
+      "category": "Costs to be Shared",
+      "text": "None of the Agreement terms will be incorporated into the divorce order if the parties so agree."
+    },
+    {
+      "id": 16010,
+      "category": "Clauses to be Incorporated in Judgment/Order",
+      "text": "All terms of this Agreement will survive a divorce judgment or order."
+    },
+    {
+      "id": 16011,
+      "category": "Religious Barriers to Remarriage",
+      "text": "Parties agree to remove religious barriers to remarriage and will cooperate in obtaining a religious divorce or annulment."
+    },
+    {
+      "id": 16012,
+      "category": "Applicable Law and Interpretation",
+      "text": "PROVINCE law applies unless otherwise agreed. Jurisdiction is with the PROVINCIAL HIGH COURT or other specified court."
+    },
+    {
+      "id": 16013,
+      "category": "Agreement To Bind Estate",
+      "text": "This Agreement binds and benefits the parties’ heirs, executors, administrators, and legal representatives."
+    },
+    {
+      "id": 16014,
+      "category": "Inform Personal Representatives",
+      "text": "Parties will inform their estate representatives of the existence and location of this Agreement."
+    },
+    {
+      "id": 16015,
+      "category": "Amendments",
+      "text": "All amendments must be in writing, signed, dated, and witnessed."
+    },
+    {
+      "id": 16016,
+      "category": "Execution Of Other Documents",
+      "text": "Parties will sign any documents necessary to carry out the intent of this Agreement."
+    },
+    {
+      "id": 16017,
+      "category": "Financial Disclosure",
+      "text": "Parties disclose all income, assets, and debts as of the marriage/cohabitation date, separation date, and signing of this Agreement."
+    },
+    {
+      "id": 16018,
+      "category": "Financial Investigation",
+      "text": "Each party is satisfied with financial disclosure and investigation. Courts may set aside terms for nondisclosure of significant assets or debts."
+    },
+    {
+      "id": 16019,
+      "category": "Disclosure Waiver",
+      "text": "Where no financial disclosure was requested, each party waives further disclosure and agrees it is irrelevant to the terms of this Agreement."
+    },
+    {
+      "id": 16020,
+      "category": "Financial Statements Attached",
+      "text": "Financial statements or statements of income, assets, debts, and excluded property may be attached as Schedules to this Agreement."
+    },
+    {
+      "id": 16021,
+      "category": "Non-compliance",
+      "text": "Failure to enforce any term is not a waiver of that term."
+    },
+    {
+      "id": 16022,
+      "category": "Costs",
+      "text": "Each party pays their own legal and preparation costs related to this Agreement."
+    },
+    {
+      "id": 16023,
+      "category": "Independent Legal Advice",
+      "text": "Parties confirm they received independent legal advice and understand the nature, consequences, and fairness of this Agreement."
+    },
+    {
+      "id": 16024,
+      "category": "Independent Legal Advice Declined",
+      "text": "If a party declines legal advice, they acknowledge this in writing by executing a Waiver of Independent Legal Advice."
+    },
+    {
+      "id": 16025,
+      "category": "Where Consent is Required in Agreement",
+      "text": "Consent required under this Agreement will not be unreasonably withheld. Disputes over consent will be resolved under the Dispute Resolution section."
+    },
+    {
+      "id": 16026,
+      "category": "Execution - Counterparts; Electronic Signature/Delivery",
+      "text": "The Agreement may be signed in counterparts, via electronic means, and delivery by email or fax is acceptable and binding."
+    },
+    {
+      "id": 16027,
+      "category": "Effective Date",
+      "text": "The effective date of this Agreement is the date on which the last party signs it."
+    },
+    {
+      "id": 16028,
+      "category": "Preparation",
+      "text": "This Agreement was prepared jointly by both parties."
+    },
+    {
+      "id": 17000,
+      "category": "Execution",
+      "text": "TO EVIDENCE THEIR AGREEMENT, _____ AND _____ HAVE SIGNED THIS AGREEMENT BEFORE A WITNESS.\n\nSIGNED at _________________________ on this ______ day of ______________, 20___.\n\n_____________________________        _____________________________\n*PARTY 1 FULL NAME*                   Witness to signature of PARTY 1\n\n_____________________________        _____________________________\n*PARTY 2 FULL NAME*                   Witness to signature of PARTY 2\n\n_____________________________        _____________________________\n*LAWYER NAME FOR PARTY 1*            Solicitor for PARTY 1\n\n_____________________________        _____________________________\n*LAWYER NAME FOR PARTY 2*            Solicitor for PARTY 2"
+    },
+    {
+      "id": 18000,
+      "category": "Schedules",
+      "finalClause": true,
+      "text": "SCHEDULE A – CERTIFICATE OF INDEPENDENT LEGAL ADVICE\n\nI, [full name], of the City of [specify], in the Municipality of [specify], in the Province of __________, Barrister and Solicitor, certify that I was consulted by _____, one of the parties to the attached Separation Agreement with respect to her rights and obligations under this Agreement.\n\nI acted only for _____ and fully explained to her the nature and effect of the Agreement. _____ acknowledged that she completely understood the nature and effect of the Agreement. _____ executed the Agreement in front of me and confirmed that she was entering into the Agreement of her own volition without any fear, threats, compulsion or influence by _____ or any other person.\n\nDated at [city] this [date]:\n\n______________________________\n[full name]\n\n===PAGE BREAK===\n\nSCHEDULE B – WAIVER OF INDEPENDENT LEGAL ADVICE\n\nI, [name], of the City of [specify], in the Municipality of [specify], in the Province of _____, certify that:\n\n1. I have read and understood the attached Agreement dated [specify].\n2. I understand [lawyer name] is not my solicitor and has recommended I seek legal advice, which I decline.\n3. I waive any right to challenge this Agreement based on not receiving legal advice.\n4. I enter this Agreement voluntarily and without coercion.\n\nDated at [city] this [date]:\n\n______________________________\n[full name]\n\n===PAGE BREAK===\n\nSCHEDULE C – JOINT ELECTION UNDER SECTION 74.5(3)(b) OF THE INCOME TAX ACT\n\nWe signed a separation agreement on [date].\n\nWe jointly elect that section 74.2 of the Income Tax Act shall not apply to any loans, transfers, or dispositions of property between us under the agreement.\n\nDated this [date]\n\n______________________________           ______________________________\nWitness                                       Witness\n\n===PAGE BREAK===\n\nSCHEDULE D – TRANSFER OF INTEREST IN INSURANCE POLICY\n\nTo: [Insurance Company Name]  \nFrom: [Full name]\n\nRe: Insurance Policy #[number]\n\nI, [full name], hereby transfer my interest in [name]'s insurance policy, number [number], issued by [insurance company], with a face value of $[amount].\n\nDated at [City] this [date]:\n\n______________________________\n[full name]\n\n______________________________\nWitness\n\n===PAGE BREAK===\n\nSCHEDULE E – MEDIATION/ARBITRATION AGREEMENT\n\n[Standard mediation-arbitration form content goes here, structured with numbered sections for background, issues, process, and fees.]\n\nDated this [date]\n\n______________________________          ______________________________\n[Party 1 Name]                          Solicitor for [Party 1]\n\n______________________________          ______________________________\n[Party 2 Name]                          Solicitor for [Party 2]\n\n===PAGE BREAK===\n\nSCHEDULE F – DIRECTION TO RRSP PLANHOLDER\n\nTo: [RRSP Planholder Name]  \nFrom: [Full Name]\n\nRe: RRSP Account #[number]\n\nI hereby direct you not to collapse or transfer my RRSP without the written consent of [name].\n\nDated at [City] this [date]:\n\n______________________________\n[Name]\n\n______________________________\nWitness\n\n===PAGE BREAK===\n\nSCHEDULE G – ACKNOWLEDGEMENT OF DIVISION OF HOUSEHOLD CONTENTS\n\nWe acknowledge that we have divided our household contents to our mutual satisfaction in accordance with the attached list. No further claims exist regarding household items.\n\nDated: [date]\n\n______________________________          ______________________________\n[Party 1 Name]                          [Party 2 Name]\n\n______________________________          ______________________________\nWitness                                 Witness\n\n===PAGE BREAK==="
+    }
+  ]

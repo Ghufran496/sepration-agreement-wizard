@@ -1,0 +1,344 @@
+@use "sass:color";
+@import 'animate.css';
+
+// Custom color variables
+$primary-color: #1a237e; // Dark blue
+$secondary-color: #3949ab; // Medium blue
+$accent-color: #5c6bc0; // Light purple-blue
+$light-bg: #e8eaf6; // Very light blue background
+$border-color: #c5cae9; // Light blue border
+$shadow-color: rgba(26, 35, 126, 0.2); // Blue-tinted shadow
+$text-color: #212121; // Dark text
+$label-color: #3d5afe; // Bright blue for labels
+
+// Container styling
+.container {
+  padding: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// Main card styling
+.main-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+  box-shadow: 0 8px 16px $shadow-color;
+  transition: all 0.3s ease;
+}
+
+// Card hover effects
+.hover-effect {
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  }
+}
+
+// Card variations
+.party-card, .support-card, .dates-card, .children-card, .child-card {
+  background: $light-bg;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid $border-color;
+  box-shadow: 0 4px 8px $shadow-color;
+  
+  h3, h4 {
+    margin-top: 0;
+    margin-bottom: 1.75rem;
+  }
+  
+  .grid {
+    row-gap: 0.5rem;
+  }
+}
+
+.party-card {
+  border-left: 4px solid $primary-color;
+}
+
+.support-card {
+  border-left: 4px solid $secondary-color;
+}
+
+.dates-card {
+  border-left: 4px solid #3f51b5; // Indigo
+  
+  .field-label {
+    margin-bottom: 0.75rem;
+  }
+  
+  .form-field {
+    margin-bottom: 1.5rem;
+  }
+  
+  .p-calendar {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.children-card {
+  border-left: 4px solid #303f9f; // Dark indigo
+  position: relative;
+  z-index: 1;
+}
+
+.child-card {
+  background: white;
+  border-left: 3px solid $accent-color;
+  position: relative;
+  z-index: 1;
+}
+
+// Typography
+.section-title {
+  font-size: 2rem;
+  color: $primary-color;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.5rem;
+  
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background: $primary-color;
+  }
+}
+
+.section-subtitle {
+  font-size: 1.4rem;
+  color: $secondary-color;
+  margin-bottom: 1.25rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.party-title {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.child-title {
+  color: $accent-color;
+  font-weight: 500;
+}
+
+.text-primary {
+  color: $primary-color !important;
+}
+
+.text-secondary {
+  color: $secondary-color !important;
+}
+
+.instructions {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+// Form styling
+.form-field {
+  margin-bottom: 1.5rem;
+  
+  .field-label {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+    color: $label-color;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+  }
+  
+  input:focus + .field-label,
+  .p-dropdown:focus + .field-label {
+    color: $primary-color;
+  }
+}
+
+// Input styling
+:host ::ng-deep {
+  .p-inputtext, .p-dropdown, .p-calendar {
+    border-radius: 6px;
+    // padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+    border: 1px solid $border-color;
+    
+    &:hover {
+      border-color: $primary-color;
+    }
+    
+    &:focus {
+      box-shadow: 0 0 0 2px rgba($primary-color, 0.2);
+      border-color: $primary-color;
+    }
+  }
+  
+  // Fix dropdown height issues
+  .p-dropdown {
+    height: auto !important;
+    min-height: 45px;
+    
+    .p-dropdown-label {
+      padding: 0.5rem 0;
+      display: flex;
+      align-items: center;
+      white-space: normal;
+      line-height: 1.5;
+    }
+    
+    .p-dropdown-trigger {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  // Ensure dropdown overlay is visible
+  .p-dropdown-panel {
+    z-index: 9999 !important;
+  }
+  
+  .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+    background: rgba($primary-color, 0.1);
+    color: $primary-color;
+  }
+  
+  .p-button {
+    border-radius: 50px;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba($primary-color, 0.2);
+    }
+    
+    &.p-button-success {
+      background: #3f51b5; // Indigo
+      
+      &:hover {
+        background: color.adjust(#3f51b5, $lightness: -10%);
+      }
+    }
+    
+    &.p-button-danger {
+      &:hover {
+        background: color.adjust(#f44336, $lightness: -10%);
+      }
+    }
+  }
+  
+  // Fix calendar overlay
+  .p-calendar {
+    width: 100%;
+    height: auto !important;
+    min-height: 45px;
+    margin-bottom: 0.5rem;
+    
+    .p-inputtext {
+      width: 100%;
+      height: auto !important;
+      min-height: 45px;
+      // padding: 0.75rem 1rem;
+    }
+    
+    // Fix icon button alignment
+    .p-datepicker-trigger {
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      padding: 0 0.75rem;
+    }
+    
+    .p-datepicker {
+      border-radius: 8px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+      z-index: 99999 !important; // Much higher z-index to show above everything
+      position: absolute !important;
+      top: auto !important;
+      left: auto !important;
+    }
+  }
+
+  // Ensure all overlays are above other elements
+  .p-component-overlay {
+    z-index: 9000 !important;
+  }
+
+  .p-datepicker-panel {
+    z-index: 99999 !important;
+  }
+  
+  // Fix for calendar in children section
+  .children-card .p-calendar .p-datepicker,
+  .child-card .p-calendar .p-datepicker {
+    z-index: 99999 !important;
+  }
+  
+  // Specific fix for datepicker panel in children section
+  .children-card .p-datepicker-panel,
+  .child-card .p-datepicker-panel {
+    z-index: 99999 !important;
+  }
+  
+  // Make calendar container positioned to create a new stacking context
+  .p-calendar {
+    position: relative;
+    z-index: auto;
+    
+    &:focus-within {
+      z-index: 99999 !important;
+    }
+  }
+}
+
+// Action buttons
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid $border-color;
+}
+
+.transition-button {
+  background: $primary-color;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: color.adjust($primary-color, $lightness: -10%);
+  }
+}
+
+// Animation utilities
+.animated {
+  animation-duration: 0.5s;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// Add these imports to your angular.json file styles array
+// "node_modules/animate.css/animate.min.css"
